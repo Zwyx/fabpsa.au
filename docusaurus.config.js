@@ -1,139 +1,162 @@
 // @ts-check
-// Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const { env, exit } = require("process");
+
+require("dotenv").config();
+
+const lightCodeTheme = require("prism-react-renderer/themes/github");
+const darkCodeTheme = require("prism-react-renderer/themes/dracula");
+
+const DOMAIN = env.DOMAIN;
+// const GOOGLE_ANALYTICS_TRACKING_ID = env.GOOGLE_ANALYTICS_TRACKING_ID;
+
+[DOMAIN /*GOOGLE_ANALYTICS_TRACKING_ID*/].forEach((value) => {
+	if (!value) {
+		console.error(`Missing environment variable`);
+		exit(1);
+	}
+});
+
+const envVariablesForCustomFields = [];
+
+const customFields = Object.fromEntries(
+	envVariablesForCustomFields.map(([variableName, customFieldName]) => {
+		const value = env[variableName];
+
+		if (!value) {
+			console.error(`Missing value for environment variable '${variableName}'`);
+			exit(1);
+		}
+
+		return [customFieldName, value];
+	}),
+);
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+	title: "FABPSA",
+	tagline: "French Australian Bilingual Program for School Association",
+	favicon: "img/favicon.ico", //////////////////////// TBD
+	url: "https://fabpsa.au",
+	baseUrl: "/",
 
-  // Set the production url of your site here
-  url: 'https://your-docusaurus-test-site.com',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+	trailingSlash: false,
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+	i18n: {
+		defaultLocale: "en",
+		locales: ["en"],
+	},
 
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+	presets: [
+		[
+			"classic",
+			/** @type {import('@docusaurus/preset-classic').Options} */
+			({
+				docs: {
+					sidebarPath: require.resolve("./sidebars.js"),
+				},
+				blog: {
+					blogTitle: "FABPSA's blog",
+					blogDescription:
+						"The blog of the French Australian Bilingual Program for School Association",
+					blogSidebarTitle: "Latest posts",
+					blogSidebarCount: "ALL",
+					postsPerPage: "ALL",
+					exclude:
+						env.NODE_ENV !== "development"
+							? ["*-xx-*/*", "draft*/*"] // Exclude drafts
+							: undefined,
+					feedOptions: {
+						type: "all",
+						title: "FABPSA's blog",
+						description:
+							"The blog of the French Australian Bilingual Program for School Association",
+						copyright: `Copyright © ${new Date().getFullYear()} FABPSA.`,
+					},
+				},
+				theme: {
+					customCss: require.resolve("./src/css/custom.css"),
+				},
+			}),
+		],
+	],
 
-  // Even if you don't use internalization, you can use this field to set useful
-  // metadata like html lang. For example, if your site is Chinese, you may want
-  // to replace "en" with "zh-Hans".
-  i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
-  },
+	themeConfig:
+		/** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+		({
+			metadata: [
+				{
+					name: "keywords",
+					content: "french, english, bilingual, australia, association",
+				},
+			],
+			colorMode: {
+				respectPrefersColorScheme: true,
+			},
+			image: "img/tbd.jpg", //////////////////////// TBD
+			navbar: {
+				title: "FABPSA",
+				logo: {
+					alt: "FABPSA's logo",
+					src: "img/logo.svg", //////////////////////// TBD
+				},
+				items: [
+					{
+						type: "docSidebar",
+						sidebarId: "tutorialSidebar",
+						position: "left",
+						label: "Tutorial",
+					},
+					{
+						to: "/blog",
+						label: "Blog",
+					},
+				],
+			},
+			footer: {
+				style: "dark",
+				links: [
+					{
+						title: "Docs",
+						items: [
+							{
+								label: "Tutorial",
+								to: "/docs/intro",
+							},
+						],
+					},
+					{
+						title: "Community",
+						items: [
+							{
+								label: "Facebook",
+								href: "https://facebook.com/",
+							},
+							{
+								label: "Twitter",
+								href: "https://twitter.com/",
+							},
+						],
+					},
+					{
+						title: "More",
+						items: [
+							{
+								label: "Blog",
+								to: "/blog",
+							},
+						],
+					},
+				],
+				copyright: `Copyright © ${new Date().getFullYear()} French Australian Bilingual Program for School Association Incorporated.`,
+			},
+			prism: {
+				theme: lightCodeTheme,
+				darkTheme: darkCodeTheme,
+			},
+		}),
 
-  presets: [
-    [
-      'classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
-      ({
-        docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
-        theme: {
-          customCss: require.resolve('./src/css/custom.css'),
-        },
-      }),
-    ],
-  ],
-
-  themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
-      // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
-      navbar: {
-        title: 'My Site',
-        logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
-        },
-        items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Tutorial',
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
-        ],
-      },
-      footer: {
-        style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
-      },
-      prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
-      },
-    }),
+	customFields,
 };
 
 module.exports = config;
