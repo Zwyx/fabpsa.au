@@ -36,7 +36,7 @@ const customFields = Object.fromEntries(
 const config = {
 	title: "FABPSA",
 	tagline: "French Australian Bilingual Program for School Association",
-	favicon: "img/favicon.ico", //////////////////////// TBD
+	favicon: "img/favicon.ico",
 	url: "https://fabpsa.au",
 	baseUrl: "/",
 
@@ -44,7 +44,7 @@ const config = {
 
 	i18n: {
 		defaultLocale: "en",
-		locales: ["en"],
+		locales: ["en", "fr"],
 	},
 
 	presets: [
@@ -62,10 +62,6 @@ const config = {
 					blogSidebarTitle: "Latest posts",
 					blogSidebarCount: "ALL",
 					postsPerPage: "ALL",
-					exclude:
-						env.NODE_ENV !== "development"
-							? ["*-xx-*/*", "draft*/*"] // Exclude drafts
-							: undefined,
 					feedOptions: {
 						type: "all",
 						title: "FABPSA's blog",
@@ -103,13 +99,16 @@ const config = {
 				items: [
 					{
 						type: "docSidebar",
-						sidebarId: "tutorialSidebar",
-						position: "left",
-						label: "Tutorial",
+						sidebarId: "projectSidebar",
+						label: "The Project",
 					},
 					{
 						to: "/blog",
-						label: "Blog",
+						label: "FABPSA's Blog",
+					},
+					{
+						type: "localeDropdown",
+						position: "right",
 					},
 				],
 			},
@@ -117,11 +116,29 @@ const config = {
 				style: "dark",
 				links: [
 					{
-						title: "Docs",
+						title: "The project",
 						items: [
 							{
-								label: "Tutorial",
-								to: "/docs/intro",
+								label: "Introduction",
+								to: "/docs/introduction",
+							},
+						],
+					},
+					{
+						title: "About Us",
+						items: [
+							{
+								label: "Céline & Julie",
+								to: "/about-us",
+							},
+						],
+					},
+					{
+						title: "Articles",
+						items: [
+							{
+								label: "Blog",
+								to: "/blog",
 							},
 						],
 					},
@@ -130,25 +147,12 @@ const config = {
 						items: [
 							{
 								label: "Facebook",
-								href: "https://facebook.com/",
-							},
-							{
-								label: "Twitter",
-								href: "https://twitter.com/",
-							},
-						],
-					},
-					{
-						title: "More",
-						items: [
-							{
-								label: "Blog",
-								to: "/blog",
+								href: "https://www.facebook.com/people/Fabpsa-French-Australian-Bilingual-Program-for-School-Association-Inc/100081751441463/",
 							},
 						],
 					},
 				],
-				copyright: `Copyright © ${new Date().getFullYear()} French Australian Bilingual Program for School Association Incorporated.`,
+				copyright: `Copyright © ${new Date().getFullYear()} FABPSA.`,
 			},
 			prism: {
 				theme: lightCodeTheme,

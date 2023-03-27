@@ -1,0 +1,38 @@
+{
+	"link.title.The project": {
+		"message": "Le projet",
+		"description": "The title of the footer links column with title=The project in the footer"
+	},
+	"link.title.About Us": {
+		"message": "À propos de nous",
+		"description": "The title of the footer links column with title=About Us in the footer"
+	},
+	"link.title.Articles": {
+		"message": "Articles",
+		"description": "The title of the footer links column with title=Articles in the footer"
+	},
+	"link.title.Community": {
+		"message": "Communauté",
+		"description": "The title of the footer links column with title=Community in the footer"
+	},
+	"link.item.label.Introduction": {
+		"message": "Présentation",
+		"description": "The label of footer link with label=Introduction linking to /docs/introduction"
+	},
+	"link.item.label.Céline & Julie": {
+		"message": "Céline & Julie",
+		"description": "The label of footer link with label=Céline & Julie linking to /about-us"
+	},
+	"link.item.label.Blog": {
+		"message": "Blog",
+		"description": "The label of footer link with label=Blog linking to /blog"
+	},
+	"link.item.label.Facebook": {
+		"message": "Facebook",
+		"description": "The label of footer link with label=Facebook linking to https://www.facebook.com/people/Fabpsa-French-Australian-Bilingual-Program-for-School-Association-Inc/100081751441463/"
+	},
+	"copyright": {
+		"message": "Copyright © 2023 FABPSA.",
+		"description": "The footer copyright"
+	}
+}

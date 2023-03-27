@@ -1,21 +1,9 @@
 ---
-description: French Australian Bilingual Program for School Association
+title: Project introduction
+description: Bilingual Program for West Australians Schools
 ---
 
-import Link from "@docusaurus/Link";
-import { Image } from "@site/src/components/Image";
-import { BlogPostCards } from "@site/src/components/BlogPostCards";
-import fabpsa from "/static/img/img.jpg";
-
-<div style={{ height: "48px" }} />
-
-<div style={{ margin: "48px", textAlign: "center" }}>
-	<div style={{ margin: "48px", fontSize: "2rem" }}>Welcome to FABPSA</div>
-	<Image src={fabpsa} alt="FABPSA's logo" width="550px" />
-	<div style={{ margin: "48px 0", fontSize: "1.5rem" }}>
-		The French Australian Bilingual Program for School Association.
-	</div>
-</div>
+The project of FABPSA is to create a bilingual program for west australians schools.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non hendrerit nisl, vel viverra ex. Curabitur posuere aliquam hendrerit. Donec eu ex eget mauris pellentesque dignissim ut eget neque. Fusce et nulla et odio rutrum laoreet. Cras lorem nunc, ullamcorper ac luctus id, gravida bibendum dolor. Nullam vulputate felis sed dictum rhoncus. Nam tristique mi eget magna aliquam porttitor. Aliquam ut dignissim ipsum. Morbi vulputate feugiat metus, nec gravida magna gravida eu. Nulla suscipit, magna in finibus interdum, lacus turpis consequat nisi, ut aliquet nunc nibh sed massa. Pellentesque placerat mi molestie sodales mollis.
 

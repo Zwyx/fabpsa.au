@@ -1,22 +1,13 @@
 ---
-description: French Australian Bilingual Program for School Association
+title: À propos de la FABPSA
+description: À propos de la FABPSA
+hide_table_of_contents: true
 ---
 
-import Link from "@docusaurus/Link";
-import { Image } from "@site/src/components/Image";
-import { BlogPostCards } from "@site/src/components/BlogPostCards";
-import fabpsa from "/static/img/img.jpg";
-
-<div style={{ height: "48px" }} />
-
-<div style={{ margin: "48px", textAlign: "center" }}>
-	<div style={{ margin: "48px", fontSize: "2rem" }}>Welcome to FABPSA</div>
-	<Image src={fabpsa} alt="FABPSA's logo" width="550px" />
-	<div style={{ margin: "48px 0", fontSize: "1.5rem" }}>
-		The French Australian Bilingual Program for School Association.
-	</div>
-</div>
+## Céline
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non hendrerit nisl, vel viverra ex. Curabitur posuere aliquam hendrerit. Donec eu ex eget mauris pellentesque dignissim ut eget neque. Fusce et nulla et odio rutrum laoreet. Cras lorem nunc, ullamcorper ac luctus id, gravida bibendum dolor. Nullam vulputate felis sed dictum rhoncus. Nam tristique mi eget magna aliquam porttitor. Aliquam ut dignissim ipsum. Morbi vulputate feugiat metus, nec gravida magna gravida eu. Nulla suscipit, magna in finibus interdum, lacus turpis consequat nisi, ut aliquet nunc nibh sed massa. Pellentesque placerat mi molestie sodales mollis.
+
+## Julie
 
 Donec sit amet justo rhoncus, pulvinar nunc et, bibendum tortor. Vivamus elit metus, rutrum ut neque ac, venenatis congue elit. Sed ornare, nisl sed aliquet pretium, tortor lacus congue turpis, ac commodo justo dolor non nibh. Suspendisse blandit sit amet ipsum nec suscipit. Sed ullamcorper molestie odio eu feugiat. Vestibulum enim nulla, blandit in interdum at, luctus id eros. Etiam finibus, tortor auctor tempor porttitor, tellus mauris lobortis turpis, at feugiat nunc urna non velit. In mollis lacinia dolor efficitur rutrum. Vestibulum urna tellus, varius a ex eu, dignissim bibendum enim. Nam nec sapien dictum felis ultrices bibendum a eget sem. Vivamus viverra imperdiet ante, dignissim venenatis odio accumsan quis. In eget sapien enim. In egestas enim risus, fringilla ornare nisl vulputate vel. Nulla ultrices felis ut purus malesuada elementum sed nec tellus. Fusce arcu mauris, ornare id sodales non, tincidunt at sapien. Cras dignissim diam nec est facilisis cursus.
