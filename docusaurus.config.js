@@ -1,32 +1,40 @@
 // @ts-check
-// Note: type annotations allow type checking and IDEs autocompletion
+
+const { env, exit } = require("process");
+
+require("dotenv").config();
 
 const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
+const DOMAIN = env.DOMAIN;
+const PLAUSIBLE_SCRIPT_SRC = env.PLAUSIBLE_SCRIPT_SRC;
+
+[DOMAIN, PLAUSIBLE_SCRIPT_SRC].forEach((value) => {
+	if (!value) {
+		console.error(`Missing environment variable`);
+		exit(1);
+	}
+});
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-	title: "My Site",
-	tagline: "Dinosaurs are cool",
-	favicon: "img/favicon.ico",
-
-	// Set the production url of your site here
-	url: "https://your-docusaurus-test-site.com",
-	// Set the /<baseUrl>/ pathname under which your site is served
-	// For GitHub pages deployment, it is often '/<projectName>/'
+	title: "FABPSA",
+	tagline: "French Australian Bilingual Program for School Association",
+	favicon: "img/favicon.png",
+	url: `https://${DOMAIN}`,
 	baseUrl: "/",
 
-	// GitHub pages deployment config.
-	// If you aren't using GitHub pages, you don't need these.
-	organizationName: "facebook", // Usually your GitHub org/user name.
-	projectName: "docusaurus", // Usually your repo name.
+	trailingSlash: false,
 
-	onBrokenLinks: "throw",
-	onBrokenMarkdownLinks: "warn",
+	scripts: [
+		{
+			src: PLAUSIBLE_SCRIPT_SRC,
+			defer: true,
+			"data-domain": DOMAIN,
+		},
+	],
 
-	// Even if you don't use internalization, you can use this field to set useful
-	// metadata like html lang. For example, if your site is Chinese, you may want
-	// to replace "en" with "zh-Hans".
 	i18n: {
 		defaultLocale: "en",
 		locales: ["en"],
@@ -37,20 +45,8 @@ const config = {
 			"classic",
 			/** @type {import('@docusaurus/preset-classic').Options} */
 			({
-				docs: {
-					sidebarPath: require.resolve("./sidebars.js"),
-					// Please change this to your repo.
-					// Remove this to remove the "edit this page" links.
-					editUrl:
-						"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
-				},
-				blog: {
-					showReadingTime: true,
-					// Please change this to your repo.
-					// Remove this to remove the "edit this page" links.
-					editUrl:
-						"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
-				},
+				docs: false,
+				blog: false,
 				theme: {
 					customCss: require.resolve("./src/css/custom.css"),
 				},
@@ -61,73 +57,47 @@ const config = {
 	themeConfig:
 		/** @type {import('@docusaurus/preset-classic').ThemeConfig} */
 		({
-			// Replace with your project's social card
-			image: "img/docusaurus-social-card.jpg",
-			navbar: {
-				title: "My Site",
-				logo: {
-					alt: "My Site Logo",
-					src: "img/logo.svg",
+			metadata: [
+				{
+					name: "keywords",
+					content: "french, english, bilingual Program, school",
 				},
+			],
+			colorMode: {
+				respectPrefersColorScheme: true,
+				disableSwitch: true,
+			},
+			image: "img/fabpsa.png",
+			navbar: {
+				logo: {
+					alt: "FABPSA logo",
+					src: "img/fabpsa.png",
+					href: "/",
+				},
+				title: "FABPSA",
 				items: [
-					{
-						type: "docSidebar",
-						sidebarId: "tutorialSidebar",
-						position: "left",
-						label: "Tutorial",
-					},
-					{ to: "/blog", label: "Blog", position: "left" },
-					{
-						href: "https://github.com/facebook/docusaurus",
-						label: "GitHub",
-						position: "right",
-					},
+					{ to: "/about-us", label: "About us" },
+					{ to: "/the-project", label: "The Project" },
 				],
 			},
 			footer: {
 				style: "dark",
 				links: [
 					{
-						title: "Docs",
+						title: "Contact",
 						items: [
 							{
-								label: "Tutorial",
-								to: "/docs/intro",
-							},
-						],
-					},
-					{
-						title: "Community",
-						items: [
-							{
-								label: "Stack Overflow",
-								href: "https://stackoverflow.com/questions/tagged/docusaurus",
+								label: "Email",
+								href: "mailto:contact@fabpsa.au",
 							},
 							{
-								label: "Discord",
-								href: "https://discordapp.com/invite/docusaurus",
-							},
-							{
-								label: "Twitter",
-								href: "https://twitter.com/docusaurus",
-							},
-						],
-					},
-					{
-						title: "More",
-						items: [
-							{
-								label: "Blog",
-								to: "/blog",
-							},
-							{
-								label: "GitHub",
-								href: "https://github.com/facebook/docusaurus",
+								label: "Facebook",
+								href: "https://www.facebook.com/profile.php?id=100081751441463",
 							},
 						],
 					},
 				],
-				copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+				copyright: `Copyright © ${new Date().getFullYear()} FABPSA`,
 			},
 			prism: {
 				theme: lightCodeTheme,
