@@ -14,9 +14,6 @@ collections:
     label_singular: Page
     folder: src/pages
     create: true
-    nested:
-      depth: 100
-      summary: "{{title}}"
     fields:
       - label: Title
         name: title
@@ -25,28 +22,7 @@ collections:
         name: body
         widget: markdown
     # https://decapcms.org/docs/beta-features/#nested-collections
-    meta: { path: { widget: string, label: "Path", index_file: "index" } }
-  #
-  # - name: blog
-  #   label: "blog"
-  #   folder: blog
-  #   identifier_field: title
-  #   extension: md
-  #   widget: "list"
-  #   create: true
-  #   slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-  #   fields:
-  #     - { name: title, label: Title, widget: string }
-  #     - { name: body, label: Body, widget: markdown }
-  #     - { name: slug, label: Slug, widget: string }
-  #     - label: "Tags"
-  #       name: "tags"
-  #       widget: "list"
-  #     - label: "Authors"
-  #       name: "authors"
-  #       widget: "list"
-  #       fields:
-  #         - { name: name, label: Name, widget: string }
-  #         - { name: title, label: Title, widget: string }
-  #         - { name: url, label: URL, widget: string }
-  #         - { name: imageUrl, label: ImageURL, widget: string }
+    # nested:
+    #   depth: 100
+    #   summary: "{{title}}"
+    # meta: { path: { widget: string, label: "Path", index_file: "index" } }
