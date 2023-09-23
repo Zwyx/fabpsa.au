@@ -67,36 +67,24 @@ const config = {
 				respectPrefersColorScheme: true,
 				disableSwitch: true,
 			},
-			image: "img/fabpsa.png",
+			image: "img/fabpsa.webp",
 			navbar: {
 				logo: {
-					alt: "FABPSA logo",
-					src: "img/fabpsa.png",
+					alt: "Fabpsa logo",
+					src: "img/fabpsa.webp",
 					href: "/",
 				},
 				title: "FABPSA",
 				items: [
 					{ to: "/about-us", label: "About us" },
-					{ to: "/the-project", label: "The Project" },
+					{ to: "/vision-and-goals", label: "Vision and goals" },
+					{ to: "/our-team", label: "Our team" },
+					{ to: "/supporting-us", label: "Supporting us" },
+					{ to: "/resources", label: "Resources" },
 				],
 			},
 			footer: {
 				style: "dark",
-				links: [
-					{
-						title: "Contact",
-						items: [
-							{
-								label: "Email",
-								href: "mailto:contact@fabpsa.au",
-							},
-							{
-								label: "Facebook",
-								href: "https://www.facebook.com/profile.php?id=100081751441463",
-							},
-						],
-					},
-				],
 				copyright: `Copyright © ${new Date().getFullYear()} FABPSA`,
 			},
 			prism: {

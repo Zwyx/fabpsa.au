@@ -21,8 +21,8 @@ collections:
       - label: Body
         name: body
         widget: markdown
-    # https://decapcms.org/docs/beta-features/#nested-collections
-    # nested:
-    #   depth: 100
-    #   summary: "{{title}}"
+    nested:
+      depth: 100
+      summary: "{{title}}"
+    # Deactivated because doesn't work well; https://decapcms.org/docs/beta-features/#nested-collections
     # meta: { path: { widget: string, label: "Path", index_file: "index" } }

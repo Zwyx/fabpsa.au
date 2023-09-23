@@ -4,7 +4,7 @@
 
 The website of the French Australian Bilingual Program for School Association.
 
-<img src="./static/img/fabpsa.png" alt="FABPSA logo" width="200"/>
+<img src="./static/img/fabpsa.webp" alt="FABPSA logo" width="200"/>
 
 [fabpsa.au](https://fabpsa.au)
 

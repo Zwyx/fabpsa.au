@@ -1,30 +1,143 @@
-/**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat&display=swap");
 
-/* You can override the default Infima variables here. */
+/* Color palettes built using https://docusaurus.io/docs/styling-layout#styling-your-site-with-infima */
+
 :root {
-	--ifm-color-primary: #2e8555;
-	--ifm-color-primary-dark: #29784c;
-	--ifm-color-primary-darker: #277148;
-	--ifm-color-primary-darkest: #205d3b;
-	--ifm-color-primary-light: #33925d;
-	--ifm-color-primary-lighter: #359962;
-	--ifm-color-primary-lightest: #3cad6e;
+	--fabpsa-primary: #4888c8;
+	--fabpsa-primary-dark: #292562;
+	--fabpsa-secondary: #fed600;
+
+	--ifm-color-primary: var(--fabpsa-primary);
+	--ifm-color-primary-dark: #397abc;
+	--ifm-color-primary-darker: #3574b2;
+	--ifm-color-primary-darkest: #2c5f92;
+	--ifm-color-primary-light: #5d96ce;
+	--ifm-color-primary-lighter: #679cd1;
+	--ifm-color-primary-lightest: #87b1db;
+
+	--text-color: var(--fabpsa-primary-dark);
+
 	--ifm-code-font-size: 95%;
 	--docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme="dark"] {
-	--ifm-color-primary: #25c2a0;
-	--ifm-color-primary-dark: #21af90;
-	--ifm-color-primary-darker: #1fa588;
-	--ifm-color-primary-darkest: #1a8870;
-	--ifm-color-primary-light: #29d5b0;
-	--ifm-color-primary-lighter: #32d8b4;
-	--ifm-color-primary-lightest: #4fddbf;
+	--text-color: #acd6ff;
 	--docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (min-width: 1000px) {
+	.navbar__inner {
+		justify-content: center;
+	}
+
+	.navbar__items {
+		flex: unset;
+	}
+}
+
+.navbar__brand {
+	margin-right: 64px;
+}
+
+.navbar__brand,
+.navbar__item {
+	font-family: "Caveat", sans-serif;
+	font-size: 1.5em;
+	color: var(--text-color);
+}
+
+.container {
+	max-width: 960px;
+	font-family: "Montserrat", sans-serif;
+	color: var(--text-color);
+	font-size: 1.2em;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 32px;
+	font-family: "Caveat", sans-serif;
+	font-size: 3em;
+	color: var(--ifm-color-primary);
+}
+
+h2 {
+	margin: 32px 0;
+	font-family: "Caveat", sans-serif;
+	font-size: 2em;
+	color: var(--ifm-color-primary);
+}
+
+h3 {
+	margin: 32px 0;
+	font-family: "Caveat", sans-serif;
+	font-size: 1.7em;
+	color: var(--text-color);
+}
+
+h4 {
+	margin: 16px 0;
+	font-family: "Montserrat", sans-serif;
+}
+
+.hash-link {
+	display: none;
+}
+
+@media screen and (min-width: 1000px) {
+	p {
+		text-align: justify;
+	}
+}
+
+.textCenter p,
+.textCenter h1,
+.textCenter h2,
+.textCenter h3 {
+	text-align: center;
+}
+
+.textLeft p,
+.textLeft h1,
+.textLeft h2,
+.textLeft h3 {
+	text-align: left;
+}
+
+.textRight p,
+.textRight h1,
+.textRight h2,
+.textRight h3 {
+	text-align: right;
+}
+
+.frame {
+	background-color: var(--fabpsa-primary-dark);
+	/* box-shadow: 3px 3px 10px 0 var(--fabpsa-primary-dark); */
+	border-radius: 10px;
+	padding: 32px;
+	color: #ebedf0;
+}
+
+.frame h2,
+.frame a {
+	color: var(--fabpsa-secondary);
+}
+
+.frame h2 {
+	margin-top: 0;
+}
+
+.footer {
+	background-color: var(--fabpsa-primary-dark);
+}
+
+.footer .container {
+	color: unset;
+}
+
+.frameSecondary h2 {
+	text-align: center;
+	margin: 0;
 }

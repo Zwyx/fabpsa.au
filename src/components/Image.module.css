@@ -10,7 +10,7 @@
 }
 
 .frame {
-	border-radius: 3px;
+	border-radius: 5px;
 	line-height: 0; /* Prevents a larger padding at the bottom */
 }
 
@@ -20,5 +20,5 @@
 }
 
 .image {
-	border-radius: 3px;
+	border-radius: 5px;
 }
