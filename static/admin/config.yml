@@ -1,0 +1,52 @@
+backend:
+  name: github
+  branch: main
+  repo: zwyx/fabpsa.au
+
+site_url: https://fabpsa.au
+display_url: https://fabpsa.au
+media_folder: static/uploads
+public_folder: /uploads/
+
+collections:
+  - name: pages
+    label: Pages
+    label_singular: Page
+    folder: src/pages
+    create: true
+    nested:
+      depth: 100
+      summary: "{{title}}"
+    fields:
+      - label: Title
+        name: title
+        widget: string
+      - label: Body
+        name: body
+        widget: markdown
+    # https://decapcms.org/docs/beta-features/#nested-collections
+    meta: { path: { widget: string, label: "Path", index_file: "index" } }
+  #
+  # - name: blog
+  #   label: "blog"
+  #   folder: blog
+  #   identifier_field: title
+  #   extension: md
+  #   widget: "list"
+  #   create: true
+  #   slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+  #   fields:
+  #     - { name: title, label: Title, widget: string }
+  #     - { name: body, label: Body, widget: markdown }
+  #     - { name: slug, label: Slug, widget: string }
+  #     - label: "Tags"
+  #       name: "tags"
+  #       widget: "list"
+  #     - label: "Authors"
+  #       name: "authors"
+  #       widget: "list"
+  #       fields:
+  #         - { name: name, label: Name, widget: string }
+  #         - { name: title, label: Title, widget: string }
+  #         - { name: url, label: URL, widget: string }
+  #         - { name: imageUrl, label: ImageURL, widget: string }
