@@ -48,7 +48,7 @@
 }
 
 .container {
-	max-width: 960px;
+	max-width: 960px !important;
 	font-family: "Montserrat", sans-serif;
 	color: var(--text-color);
 	font-size: 1.2em;
