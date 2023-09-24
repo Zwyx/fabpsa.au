@@ -11,7 +11,7 @@ import children2 from "/static/img/AdobeStock_598428903.webp";
 
 ## Our Vision
 
-<Image src={children1} alt="Children" width="650px" />
+<Image src={children1} alt="Children" width="650px" height="433px" />
 
 We envision a future where children in Perth have access to an outstanding bilingual education program that equips them with the language skills, cultural competences, and global perspective necessary to thrive in an increasingly diverse and interconnected world.
 
@@ -19,7 +19,7 @@ By integrating French language and culture into the Australian curriculum, we ai
 
 ## Our Goals
 
-<Image src={children2} alt="Children" width="650px" />
+<Image src={children2} alt="Children" width="650px" height="433px" />
 
 ### Establishing a Bilingual Program
 

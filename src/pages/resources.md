@@ -13,11 +13,11 @@ import sbsBilingualFamily from "/static/img/sbs-bilingual-family.webp"
 
 Welcome to FABPSA’s dedicated resource page for parents embarking on the incredible journey of raising bilingual and multilingual children. We understand that this adventure can be both incredibly rewarding and quite challenging. That’s why we’re committed to providing you with valuable resources. Explore our collection of free parent and educator guides, inspiring videos, engaging podcasts, and insightful talks, all tailored to help you navigate this unique parenting path with confidence and success. Your children’s linguistic development is an extraordinary adventure, and we’re here to empower you with some knowledge and tools you may need along the way.
 
-<Image src={womanComputer} alt="Woman using a computer" width="550px" />
+<Image src={womanComputer} alt="Woman using a computer" width="550px" height="367px" />
 
 ## PEaCH
 
-<Image src={peach} alt="Woman using a computer" width="450px" />
+<Image src={peach} alt="Woman using a computer" width="450px" height="139px" />
 
 PEaCH is an Erasmus+ funded European Union project which offers free guidance for parents and educators on how to support, maintain and develop a child’s multilingual skills. It provides a diversity of free material such as practical guides, short videos, language activities resources in 24 languages.
 
@@ -75,7 +75,7 @@ Handbook: [English version](https://bilingualfamily.eu/Resources/PEaCH%20for%20e
 
 #### SBS – My Bilingual Family
 
-<Image src={sbsBilingualFamily} alt="SBS bilingual family podcast" width="350px" />
+<Image src={sbsBilingualFamily} alt="SBS bilingual family podcast" width="350px" height="197px" />
 
 Join host Dr Elaine Laforteza to hear the stories of families struggling with passing on language, and get helpful advice and practical tips from experts including speech pathologists and linguists. Raising children bilingually in English-dominant countries requires persistence and resourcefulness, especially if your mother language is not widely spoken. But it’s worth the effort because the benefits for kids are immeasurable.
 

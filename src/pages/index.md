@@ -10,18 +10,13 @@ import fabpsa from "/static/img/fabpsa.webp";
 import children1 from "/static/img/AdobeStock_603801482.webp";
 import children2 from "/static/img/AdobeStock_455007184.webp";
 
-<Image
-	src={fabpsa}
-	alt="FABPSA"
-	width="256px"
-	height="359px"
-/>
+<Image src={fabpsa} alt="FABPSA" width="256px" height="359px" />
 
 FABPSA is an incorporated non-for-profit organisation created in 2022 and run by volunteers who have a common passion about bilingual education. We are dedicated to promote bilingual education within the public primary school system in Perth, Australia. Our goal is to establish a high-quality bilingual program that provides students with the opportunity to develop fluency in both French and English while fostering cultural understanding and academic excellence.
 
 At FABPSA, we believe in the power of bilingualism as a valuable asset in today’s interconnected world. Our organisation draws inspiration from the successful models implemented in the Eastern States that we strive to replicate within the vibrant community of Perth.
 
-<Image src={children1} alt="Children" width="650px" />
+<Image src={children1} alt="Children" width="650px" height="364px"/>
 
 <div class="frame">
 

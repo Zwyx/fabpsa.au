@@ -11,7 +11,7 @@ import founders from "/static/img/founders.webp";
 
 ## The story behind FABPSA
 
-<Image src={children} alt="Children" />
+<Image src={children} alt="Children" width="928px" height="459px" />
 
 FABPSA (French Australian Bilingual Program for School Association) is born out of the passion and determination of two French mothers, Celine and Julie, living in Perth, Western Australia.
 
@@ -23,7 +23,7 @@ Joined by a team of dedicated volunteers, they dared to take the challenge of cr
 
 ## The Founders
 
-<Image src={founders} alt="Fabpsa's founders" />
+<Image src={founders} alt="Fabpsa's founders" width="603px" height="494px" />
 
 <div style={{ display: "flex", gap: "64px" }}>
 

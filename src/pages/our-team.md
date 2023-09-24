@@ -90,4 +90,4 @@ Yohann arrived in Perth 16 years ago. He has a 6 year old boy who is fluent in b
 
 ## Our Volunteers
 
-<Image src={fabpsaTeam} alt="Fabpsa's team" width="500px"/>
+<Image src={fabpsaTeam} alt="Fabpsa's team" width="500px" height="594px" />
