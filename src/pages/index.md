@@ -26,7 +26,7 @@ We invite parents, educators, community members, and all those passionate about 
 
 Together, we can make a difference in the lives of children, fostering linguistic and cultural diversity while preparing them for a future filled with endless opportunities.
 
-<div style={{ marginTop: "32px" }} class="textCenter">
+<div style={{ marginTop: "32px" }} className="textCenter">
 
 Write to us at contact@fabpsa.au
 

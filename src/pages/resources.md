@@ -21,7 +21,7 @@ Welcome to FABPSA’s dedicated resource page for parents embarking on the incre
 
 PEaCH is an Erasmus+ funded European Union project which offers free guidance for parents and educators on how to support, maintain and develop a child’s multilingual skills. It provides a diversity of free material such as practical guides, short videos, language activities resources in 24 languages.
 
-<div style={{ maxWidth: "700px", margin: "32px auto" }} class="frame textCenter">
+<div style={{ maxWidth: "700px", margin: "32px auto" }} className="frame textCenter">
 
 ## Resources for parents
 
@@ -31,7 +31,7 @@ Handbook: [English version](https://bilingualfamily.eu/wp-content/uploads/2020/1
 
 </div>
 
-<div style={{ maxWidth: "700px", margin: "32px auto" }} class="frame textCenter">
+<div style={{ maxWidth: "700px", margin: "32px auto" }} className="frame textCenter">
 
 ## Resources for educators
 

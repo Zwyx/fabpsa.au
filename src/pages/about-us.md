@@ -29,13 +29,13 @@ Joined by a team of dedicated volunteers, they dared to take the challenge of cr
 
 <div>
 
-<div class="textCenter">
+<div className="textCenter">
 
 ### About Julie
 
 </div>
 
-<div class="textLeft">
+<div className="textLeft">
 
 _« Being a versatile teacher, I have taught a wide variety of students from Kindergarten to Year 7 in Australia, France, and Nepal. I completed a Bachelor’s Degree in Sciences of Education in France and a Post Graduate Diploma of Education in Early Childhood in Australia. I am highly interested in educational philosophies and alternative education and completed a Certificate in Steiner Education.I have been fortunate to work with bilingual and multilingual children for most of my career. I am now a mother of a bilingual child and feel that I should use my passion and expertise to help develop bilingual education for the children of Perth. »_
 
@@ -45,13 +45,13 @@ _« Being a versatile teacher, I have taught a wide variety of students from Kin
 
 <div>
 
-<div class="textCenter">
+<div className="textCenter">
 
 ### About Celine
 
 </div>
 
-<div class="textRight">
+<div className="textRight">
 
 _« Passionate about languages, I started travelling very young and settled in Australia in 2007. I worked as a French teacher assistant at the Alliance Française in Perth for a few years, completed my degree to teach French as a second language and then worked mainly with primary school children in France and Australia. I also completed the NAATI training and TEFL certification and, most recently, a certification to become a yoga teacher for children. Mother of a little boy who speaks French and English fluently, I am passionate about bilingual education and the benefit of multilingualism on children’s growth. »_
 

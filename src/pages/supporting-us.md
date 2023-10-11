@@ -10,7 +10,7 @@ import youngPeople from "/static/img/young-people.webp"
 
 # Supporting us
 
-<div class="frame frameSecondary">
+<div className="frame frameSecondary">
 
 ## Pourquoi Pas…
 

@@ -26,7 +26,7 @@ Celine is our dedicated co-founder, whose expertise spans teaching (French as a 
 
 </div>
 
-<div class="textRight">
+<div className="textRight">
 
 ### Julie Penin, Director of FABPSA
 
@@ -50,7 +50,7 @@ Charline is our dedicated secretary and sponsorship specialist. Her journey in P
 
 </div>
 
-<div class="textRight">
+<div className="textRight">
 
 ### Sara Bezzan – Communication Manager
 
@@ -74,7 +74,7 @@ Julien arrived in Australia 12 years ago to work as a French language teacher. P
 
 </div>
 
-<div class="textRight">
+<div className="textRight">
 
 ### Yohann Cuchard – Committee Support
 
