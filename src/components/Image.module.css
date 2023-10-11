@@ -10,6 +10,7 @@
 }
 
 .frame {
+	max-width: 100%; /* Used in combination with `width` in the JS, to prevent layout shift */
 	border-radius: 5px;
 	line-height: 0; /* Prevents a larger padding at the bottom */
 }

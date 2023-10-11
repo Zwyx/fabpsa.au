@@ -1,0 +1,32 @@
+.title.right {
+	text-align: right;
+}
+
+.portrait {
+	display: flex;
+	gap: 32px;
+}
+
+.portrait.right .rightDescription,
+.portrait:not(.right) .leftDescription {
+	display: none;
+}
+
+@media screen and (max-width: 700px) {
+	.title.right {
+		text-align: initial;
+	}
+
+	.portrait {
+		flex-direction: column;
+		gap: 0;
+	}
+
+	.portrait.right .rightDescription {
+		display: initial;
+	}
+
+	.leftDescription {
+		display: none;
+	}
+}

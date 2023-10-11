@@ -6,9 +6,9 @@ import { Legend } from "./Legend";
 interface ImageProps extends PropsWithChildren {
 	src: string;
 	alt: string;
-	width?: string;
-	/** Providing both `width` and `height` isn't necessary, but doing so prevents layout shift */
-	height?: string;
+	/** Provide `width` and `height` to prevent layout shift */
+	width?: number;
+	height?: number;
 	withFrame?: boolean;
 	legend?: string;
 	borderRadius?: string;
@@ -30,7 +30,12 @@ export const Image: FC<ImageProps> = ({
 		<div className={clsx(style.imageWrapper, legend && style.withLegend)}>
 			<div
 				className={clsx(style.frame, withFrame && style.visible)}
-				style={{ width, height, borderRadius }}
+				style={{
+					width: `${width}px`,
+					aspectRatio:
+						width && height ? `auto ${width} / ${height}` : undefined,
+					borderRadius,
+				}}
 			>
 				<img
 					className={style.image}
