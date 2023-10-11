@@ -59,7 +59,7 @@ h1 {
 	margin-bottom: 32px;
 	font-family: "Caveat", cursive;
 	font-size: 3em;
-	color: var(--ifm-color-primary);
+	color: var(--text-color);
 }
 
 h2 {
