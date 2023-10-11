@@ -1,9 +1,10 @@
 import clsx from "clsx";
-import React, { FC, PropsWithChildren } from "react";
+import React, { FC, HTMLAttributes } from "react";
 import style from "./Image.module.css";
 import { Legend } from "./Legend";
 
-interface ImageProps extends PropsWithChildren {
+interface ImageProps
+	extends Pick<HTMLAttributes<HTMLDivElement>, "className" | "children"> {
 	src: string;
 	alt: string;
 	/** Provide `width` and `height` to prevent layout shift */
@@ -22,12 +23,19 @@ export const Image: FC<ImageProps> = ({
 	withFrame,
 	legend: legendProp,
 	borderRadius,
+	className,
 	children,
 }) => {
 	const legend = legendProp || children;
 
 	return (
-		<div className={clsx(style.imageWrapper, legend && style.withLegend)}>
+		<div
+			className={clsx(
+				style.imageWrapper,
+				legend && style.withLegend,
+				className,
+			)}
+		>
 			<div
 				className={clsx(style.frame, withFrame && style.visible)}
 				style={{

@@ -1,0 +1,20 @@
+.titleWithLogo {
+	display: flex;
+	gap: 16px;
+	align-items: center;
+	margin-bottom: 32px;
+}
+
+.title {
+	flex: 1;
+}
+
+.title h1,
+.title h2,
+.title h3 {
+	margin: 0;
+}
+
+.image {
+	margin: 0;
+}

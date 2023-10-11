@@ -40,11 +40,29 @@
 	margin-right: 64px;
 }
 
+.navbar__title {
+	padding-right: 2px; /* prevent the italic title from being slightly truncated */
+}
+
 .navbar__brand,
 .navbar__item {
 	font-family: "Caveat", cursive;
 	font-size: 1.5em;
 	color: var(--text-color);
+}
+
+.navbar__link {
+	color: var(--text-color);
+}
+
+.dropdown > .navbar__link::after {
+	top: 0;
+	margin-left: 12px;
+	border-width: 5px 5px 0;
+}
+
+.dropdown__link {
+	font-size: 1em;
 }
 
 .container {
@@ -89,6 +107,13 @@ h4 {
 	p {
 		text-align: justify;
 	}
+}
+
+/* note: if a paragraph starts with an <em>, it needs to be manually wrapped in a <p> */
+em {
+	font-family: "Caveat", cursive;
+	font-weight: bold;
+	padding-right: 3px;
 }
 
 .textCenter p,
@@ -142,7 +167,21 @@ h4 {
 	margin: 0;
 }
 
+@media only screen and (prefers-color-scheme: light) {
+	.darkOnly {
+		display: none !important;
+	}
+}
+
+@media only screen and (prefers-color-scheme: dark) {
+	.lightOnly {
+		display: none !important;
+	}
+}
+
 /* Page specifics tweaks */
+
+/* about-us */
 
 .aboutUsColumn {
 	display: flex;
@@ -153,5 +192,13 @@ h4 {
 	.aboutUsColumn {
 		flex-direction: column;
 		gap: 0;
+	}
+}
+
+/* our-action-plan */
+
+@media screen and (max-width: 1000px) {
+	.ourActionPlanImage {
+		display: none !important;
 	}
 }

@@ -1,8 +1,10 @@
-import React, { FC } from "react";
+import clsx from "clsx";
+import React, { FC, HTMLAttributes } from "react";
 import { Image } from "./Image";
 import style from "./Portrait.module.css";
 
-interface PortraitProps {
+interface PortraitProps
+	extends Pick<HTMLAttributes<HTMLDivElement>, "children"> {
 	title: string;
 	image: string;
 	name: string;
@@ -16,16 +18,17 @@ export const Portrait: FC<PortraitProps> = ({
 	name,
 	description,
 	right,
+	children,
 }) => (
 	<>
-		<h3 className={`${style.title} ${right ? style.right : ""}`}>{title}</h3>
+		<h3 className={clsx(style.title, right ? style.right : "")}>{title}</h3>
 
-		<div className={`${style.portrait} ${right ? style.right : ""}`}>
-			<div className={style.leftDescription}>{description}</div>
+		<div className={clsx(style.portrait, right ? style.right : "")}>
+			<div className={style.leftDescription}>{children}</div>
 
 			<Image src={image} alt={name} width={100} />
 
-			<div className={style.rightDescription}>{description}</div>
+			<div className={style.rightDescription}>{children}</div>
 		</div>
 	</>
 );

@@ -4,14 +4,19 @@ hide_table_of_contents: true
 ---
 
 import { Image } from "@site/src/components/Image";
+import { TitleWithLogo } from "@site/src/components/TitleWithLogo";
 import { Video } from "@site/src/components/Video";
-import womanComputer from "/static/img/woman-computer.webp"
+import womanComputer from "/static/img/womanComputer.webp"
 import peach from "/static/img/peach.webp"
-import sbsBilingualFamily from "/static/img/sbs-bilingual-family.webp"
+import sbsBilingualFamily from "/static/img/sbsBilingualFamily.webp"
+
+<TitleWithLogo>
 
 # Resources
 
-Welcome to FABPSA's dedicated resource page for parents embarking on the incredible journey of raising bilingual and multilingual children. We understand that this adventure can be both incredibly rewarding and quite challenging. That's why we're committed to providing you with valuable resources. Explore our collection of free parent and educator guides, inspiring videos, engaging podcasts, and insightful talks, all tailored to help you navigate this unique parenting path with confidence and success. Your children's linguistic development is an extraordinary adventure, and we're here to empower you with some knowledge and tools you may need along the way.
+</TitleWithLogo>
+
+Welcome to <em>FABPSA</em>'s dedicated resource page for people embarking on the incredible journey of raising bilingual and multilingual children. We understand that this adventure can be both incredibly rewarding and quite challenging. That's why we're committed to providing you with valuable resources. Explore our collection of free parent and educator guides, inspiring videos, engaging podcasts, and insightful talks, all tailored to help you navigate this unique parenting path with confidence and success. Your children's linguistic development is an extraordinary adventure, and we're here to empower you with some knowledge and tools you may need along the way.
 
 <Image src={womanComputer} alt="Woman using a computer" width={550} height={367} />
 
@@ -19,7 +24,7 @@ Welcome to FABPSA's dedicated resource page for parents embarking on the incredi
 
 <Image src={peach} alt="Woman using a computer" width={450} height={139} />
 
-PEaCH is an Erasmus+ funded European Union project which offers free guidance for parents and educators on how to support, maintain and develop a child's multilingual skills. It provides a diversity of free material such as practical guides, short videos, language activities resources in 24 languages.
+PEaCH is an Erasmus+ funded European Union project which offers free guidance for people and educators on how to support, maintain and develop a child's multilingual skills. It provides a diversity of free material such as practical guides, short videos, language activities resources in 24 languages.
 
 <div style={{ maxWidth: "700px", margin: "32px auto" }} className="frame textCenter">
 

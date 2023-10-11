@@ -71,13 +71,23 @@ const config = {
 			navbar: {
 				logo: {
 					alt: "Fabpsa logo",
-					src: "img/fabpsa.webp",
+					src: "img/fabpsaSmall.webp",
+					srcDark: "img/fabpsaTurquoiseSmallRound.webp",
 					href: "/",
 				},
 				title: "FABPSA",
 				items: [
 					{ to: "/about-us", label: "About us" },
-					{ to: "/vision-and-goals", label: "Vision and goals" },
+					{
+						type: "dropdown",
+						label: "Our project",
+						items: [
+							{ to: "/our-vision", label: "Our vision" },
+							{ to: "/our-goals", label: "Our goals" },
+							{ to: "/our-action-plan", label: "Our action plan" },
+						],
+					},
+					{ to: "/the-program", label: "The program" },
 					{ to: "/our-team", label: "Our team" },
 					{ to: "/supporting-us", label: "Supporting us" },
 					{ to: "/resources", label: "Resources" },
@@ -85,7 +95,7 @@ const config = {
 			},
 			footer: {
 				style: "dark",
-				copyright: `Copyright © ${new Date().getFullYear()} FABPSA`,
+				copyright: `Copyright © ${new Date().getFullYear()} FABPSA Inc/ACNC`,
 			},
 			prism: {
 				theme: lightCodeTheme,

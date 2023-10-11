@@ -7,6 +7,7 @@ on:
   push:
     branches:
       - main
+      - staging/**
   workflow_dispatch:
 
 permissions:
@@ -32,20 +33,24 @@ jobs:
 
       - run: npm ci
 
+      - run: echo "BRANCH=$([[ "$(git branch --show-current)" == "main" ]] && echo "dist" || echo "staging/dist")" >> $GITHUB_ENV
+        id: BRANCH
+
       - env:
           DOMAIN: ${{ secrets.DOMAIN }}
           PLAUSIBLE_SCRIPT_SRC: ${{ secrets.PLAUSIBLE_SCRIPT_SRC }}
         run: npm run build
 
       - run: |
-          git switch --orphan dist
+          [[ "${{ env.BRANCH }}" != "dist" ]] && git fetch && git branch main remotes/origin/main
+          git switch --orphan ${{ env.BRANCH }}
           git checkout main netlify.toml
           mv -v build docs
           git add docs
           git config user.name "Zwyx - GitHub Actions"
           git config user.email "29386932+Zwyx@users.noreply.github.com>"
           git commit -m "Build website"
-          git push --set-upstream origin --force dist
+          git push --set-upstream origin --force ${{ env.BRANCH }}
       #
       # - name: Setup tmate session
       #   if: ${{ always() }}

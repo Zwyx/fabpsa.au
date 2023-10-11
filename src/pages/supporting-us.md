@@ -4,17 +4,16 @@ hide_table_of_contents: true
 ---
 
 import { Image } from "@site/src/components/Image";
+import { TitleWithLogo } from "@site/src/components/TitleWithLogo";
 import letters from "/static/img/letters.webp"
-import piggybank from "/static/img/piggybank.webp"
-import youngPeople from "/static/img/young-people.webp"
+import educationChangesTheWorld from "/static/img/educationChangesTheWorld.webp"
+import youngPeople from "/static/img/youngPeople.webp"
 
-# Supporting us
+<TitleWithLogo>
 
-<div className="frame frameSecondary">
+# Pourquoi Pas… Supporting us
 
-## Pourquoi Pas…
-
-</div>
+</TitleWithLogo>
 
 ### GoFundMe
 
@@ -24,12 +23,12 @@ We have recently launched our GoFundMe page. Your donations are invaluable in en
 
 ### Business Sponsorship
 
-<Image src={piggybank} alt="Piggybank" width={350} height={233} />
+<Image src={educationChangesTheWorld} alt="Piggybank" width={232} height={160} />
 
-Contact us if you want to learn more about our sponsorship packages and how your company can be part of the first French/English bilingual program in Perth.
+<a href="mailto:contact@fabpsa.au">Contact us</a> if you want to learn more about our sponsorship packages and how your company can be part of the first French/English bilingual program in Perth.
 
 ### Volunteering
 
 <Image src={youngPeople} alt="Young people" width={350} height={234} />
 
-We're often looking for passionate and driven individuals who want to contribute to our cause. Contact us if you want to be part of the adventure.
+We're often looking for passionate and driven individuals who want to contribute to our cause. <a href="mailto:contact@fabpsa.au">Contact us</a> if you want to be part of the adventure.
