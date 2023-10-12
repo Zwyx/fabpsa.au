@@ -5,6 +5,7 @@ hide_table_of_contents: true
 
 # Welcome to FABPSA
 
+import { ConvertKitForm } from "@site/src/components/ConvertKitForm";
 import { Image } from "@site/src/components/Image";
 import fabpsa from "/static/img/fabpsa.webp";
 import fabpsaTurquoiseRound from "/static/img/fabpsaTurquoiseRound.webp";
@@ -31,11 +32,25 @@ We invite parents, educators, community members, and all those passionate about 
 
 Together, we can make a difference in the lives of children, fostering linguistic and cultural diversity while preparing them for a future filled with endless opportunities.
 
-<div style={{ marginTop: "32px" }} className="textCenter">
+<div style={{ marginTop: "48px" }} />
 
-Write to us at contact@fabpsa.au
+<div className="textCenter">
 
-Follow us on [facebook](https://www.facebook.com/profile.php?id=100081751441463)
+## Join FABPSA's newsletter
+
+<ConvertKitForm />
+
+<div style={{ marginTop: "32px" }} />
+
+## Write to us
+
+At contact@fabpsa.au
+
+<div style={{ marginTop: "32px" }} />
+
+## Follow us
+
+On [facebook](https://www.facebook.com/profile.php?id=100081751441463)
 
 </div>
 

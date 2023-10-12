@@ -152,6 +152,7 @@ em {
 
 .frame h2 {
 	margin-top: 0;
+	margin-bottom: 16px;
 }
 
 .footer {
@@ -180,6 +181,23 @@ em {
 }
 
 /* Page specifics tweaks */
+
+/** index */
+
+.formkit-form {
+	margin: 0 auto;
+}
+
+.formkit-form[data-uid="ee0fdedb1c"][min-width~="600"] [data-style="minimal"],
+.formkit-form[data-uid="ee0fdedb1c"] [data-style="minimal"] {
+	padding: 0 !important;
+}
+
+.formkit-header,
+.formkit-subheader,
+.formkit-guarantee {
+	display: none;
+}
 
 /* about-us */
 

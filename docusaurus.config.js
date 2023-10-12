@@ -33,6 +33,9 @@ const config = {
 			defer: true,
 			"data-domain": DOMAIN,
 		},
+		{
+			src: "https://f.convertkit.com/ckjs/ck.5.js",
+		},
 	],
 
 	i18n: {
@@ -91,6 +94,7 @@ const config = {
 					{ to: "/our-team", label: "Our team" },
 					{ to: "/supporting-us", label: "Supporting us" },
 					{ to: "/resources", label: "Resources" },
+					{ to: "mailto:contact@fabpsa.au", label: "Contact us" },
 				],
 			},
 			footer: {
