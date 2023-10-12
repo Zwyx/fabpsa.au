@@ -100,6 +100,14 @@ const config = {
 			footer: {
 				style: "dark",
 				copyright: `Copyright © ${new Date().getFullYear()} FABPSA Inc/ACNC`,
+				logo: {
+					alt: "Fabpsa logo",
+					src: "img/fabpsaTurquoiseSmallRound.webp",
+					href: "/",
+					width: "75px",
+					height: "75px",
+					className: "footerImage",
+				},
 			},
 			prism: {
 				theme: lightCodeTheme,

@@ -2,8 +2,8 @@ import clsx from "clsx";
 import React, { FC, HTMLAttributes } from "react";
 import { Image } from "./Image";
 import style from "./TitleWithLogo.module.css";
-import fabpsa from "/static/img/fabpsaSmall.webp";
-import fabpsaTurquoiseRound from "/static/img/fabpsaTurquoiseRound.webp";
+import fabpsaSmall from "/static/img/fabpsaSmall.webp";
+import fabpsaTurquoiseSmallRound from "/static/img/fabpsaTurquoiseSmallRound.webp";
 
 interface TitleWithLogoProps
 	extends Pick<HTMLAttributes<HTMLDivElement>, "children"> {}
@@ -14,7 +14,7 @@ export const TitleWithLogo: FC<TitleWithLogoProps> = ({ children }) => (
 
 		<Image
 			className={clsx(style.image, "lightOnly")}
-			src={fabpsa}
+			src={fabpsaSmall}
 			alt="FABPSA"
 			width={50}
 			height={50}
@@ -22,7 +22,7 @@ export const TitleWithLogo: FC<TitleWithLogoProps> = ({ children }) => (
 
 		<Image
 			className={clsx(style.image, "darkOnly")}
-			src={fabpsaTurquoiseRound}
+			src={fabpsaTurquoiseSmallRound}
 			alt="FABPSA"
 			width={50}
 			height={50}
