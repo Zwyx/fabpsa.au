@@ -1,0 +1,28 @@
+backend:
+  name: github
+  branch: main
+  repo: zwyx/fabpsa.au
+
+site_url: https://fabpsa.au
+display_url: https://fabpsa.au
+media_folder: static/uploads
+public_folder: /uploads/
+
+collections:
+  - name: pages
+    label: Pages
+    label_singular: Page
+    folder: src/pages
+    create: true
+    fields:
+      - label: Title
+        name: title
+        widget: string
+      - label: Body
+        name: body
+        widget: markdown
+    nested:
+      depth: 100
+      summary: "{{title}}"
+    # Deactivated because doesn't work well; https://decapcms.org/docs/beta-features/#nested-collections
+    # meta: { path: { widget: string, label: "Path", index_file: "index" } }
