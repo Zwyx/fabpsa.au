@@ -15,27 +15,36 @@ import puzzle from "/static/img/puzzle.webp";
 
 <div style={{	display: "flex", gap: "64px" }}>
 
-<Image className="ourActionPlanImage" src={puzzle} alt="puzzle pieces" width={250} />
+<div style={{ paddingTop: "64px" }}>
+
+<Image  className="ourActionPlanImage" src={puzzle} alt="puzzle pieces" width={250} />
+
+</div>
 
 <div>
 
 ## Mobilise
 
-- Engage with organisations to ensure <em>FABPSA</em>'s feasibility.
-- Collect data and analyse the needs.
+- Collect data, engage with the community and analyse the needs to develop a draft proposal.
+- Engage with stakeholders to ensure feasibility of the project.
 - Develop a preliminary budget.
 
 ## Prepare
 
-- Obtain an agreement with the Department of education.
-- Seek donations and sponsors
-- Communicate progress to <em>FABPSA</em>'s supporters
+- Obtain an agreement with the Department of Education.
+- Launch the website.
+- Seek donations, sponsors.
+- Launch expression of interest and select the partner school.
+- Customise the program in collaboration with the selected school.
 
 ## Launch
 
-- Enrol pupils
-- Finalise partnerships with schools
+- Enrol pupils.
+- Finalise the establishment of the program.
+- Welcome the future bilingual children (targeting February 2025).
 
 </div>
 
 </div>
+
+<p><em>FABPSA</em> will communicate with its supporters on the progress of the project all along the journey.</p>

@@ -3,7 +3,7 @@ title: Welcome
 hide_table_of_contents: true
 ---
 
-# Welcome to FABPSA
+# Welcome & Bienvenue
 
 import { ConvertKitForm } from "@site/src/components/ConvertKitForm";
 import { Image } from "@site/src/components/Image";
