@@ -5,13 +5,13 @@ hide_table_of_contents: true
 
 import { Image } from "@site/src/components/Image";
 import fabpsa from "/static/img/fabpsa.webp";
-import fabpsaTurquoiseRound from "/static/img/fabpsaTurquoiseRound.webp";
+import fabpsaDark from "/static/img/fabpsaDark.webp";
 
 # Subscription confirmed!
 
-<Image className="lightOnly" src={fabpsa} alt="FABPSA" width={256} height={359} />
+<Image className="lightOnly" src={fabpsa} alt="FABPSA" width={250} height={318} />
 
-<Image className="darkOnly" src={fabpsaTurquoiseRound} alt="FABPSA" width={375} height={375} />
+<Image className="darkOnly" src={fabpsaDark} alt="FABPSA" width={250} height={318} />
 
 <div className="textCenter">
 

@@ -75,7 +75,7 @@ const config = {
 				logo: {
 					alt: "Fabpsa logo",
 					src: "img/fabpsaSmall.webp",
-					srcDark: "img/fabpsaTurquoiseSmallRound.webp",
+					srcDark: "img/fabpsaDarkSmall.webp",
 					href: "/",
 				},
 				title: "FABPSA",
@@ -102,7 +102,7 @@ const config = {
 				copyright: `Copyright © ${new Date().getFullYear()} FABPSA Inc/ACNC`,
 				logo: {
 					alt: "Fabpsa logo",
-					src: "img/fabpsaTurquoiseSmallRound.webp",
+					src: "img/fabpsaDarkSmall.webp",
 					href: "/",
 					width: "75px",
 					height: "75px",

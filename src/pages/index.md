@@ -8,13 +8,13 @@ hide_table_of_contents: true
 import { ConvertKitForm } from "@site/src/components/ConvertKitForm";
 import { Image } from "@site/src/components/Image";
 import fabpsa from "/static/img/fabpsa.webp";
-import fabpsaTurquoiseRound from "/static/img/fabpsaTurquoiseRound.webp";
+import fabpsaDark from "/static/img/fabpsaDark.webp";
 import children1 from "/static/img/AdobeStock_603801482.webp";
 import children2 from "/static/img/AdobeStock_455007184.webp";
 
-<Image className="lightOnly" src={fabpsa} alt="FABPSA" width={256} height={359} />
+<Image className="lightOnly" src={fabpsa} alt="FABPSA" width={250} height={318} />
 
-<Image className="darkOnly" src={fabpsaTurquoiseRound} alt="FABPSA" width={375} height={375} />
+<Image className="darkOnly" src={fabpsaDark} alt="FABPSA" width={250} height={318} />
 
 <p><em>FABPSA</em> is a non-for-profit organisation created in 2022 and run by volunteers who have a common passion about bilingual education. We are dedicated to promote multilingual education within the public primary school system in Perth, Australia.</p>
 

@@ -22,7 +22,19 @@
 }
 
 [data-theme="dark"] {
-	--text-color: #acd6ff;
+	--fabpsa-primary: #a7c7f0;
+	--fabpsa-secondary: #fed600;
+
+	--ifm-color-primary: var(--fabpsa-primary);
+	--ifm-color-primary-dark: #84b1ea;
+	--ifm-color-primary-darker: #73a6e7;
+	--ifm-color-primary-darkest: #3f85de;
+	--ifm-color-primary-light: #caddf6;
+	--ifm-color-primary-lighter: #dbe8f9;
+	--ifm-color-primary-lightest: #ffffff;
+
+	--text-color: #c0c0d7;
+
 	--docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
@@ -48,21 +60,26 @@
 .navbar__item {
 	font-family: "Caveat", cursive;
 	font-size: 1.5em;
-	color: var(--text-color);
+	color: var(--ifm-color-primary);
 }
 
 .navbar__link {
 	color: var(--text-color);
 }
 
-.dropdown > .navbar__link::after {
+.navbar__item.dropdown > .navbar__link::after {
 	top: 0;
 	margin-left: 12px;
 	border-width: 5px 5px 0;
 }
 
-.dropdown__link {
+.navbar__item .dropdown__link {
 	font-size: 1em;
+	color: var(--text-color);
+}
+
+.navbar__item .dropdown__link:hover {
+	color: var(--ifm-color-primary);
 }
 
 .container {
@@ -78,6 +95,7 @@ h1 {
 	font-family: "Caveat", cursive;
 	font-size: 3em;
 	color: var(--text-color);
+	color: var(--ifm-color-primary);
 }
 
 h2 {
@@ -92,11 +110,13 @@ h3 {
 	font-family: "Caveat", cursive;
 	font-size: 1.7em;
 	color: var(--text-color);
+	color: var(--ifm-color-primary);
 }
 
 h4 {
 	margin: 16px 0;
 	font-family: "Montserrat", sans-serif;
+	color: var(--ifm-color-primary);
 }
 
 .hash-link {
