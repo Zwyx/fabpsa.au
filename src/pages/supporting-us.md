@@ -19,7 +19,13 @@ import youngPeople from "/static/img/youngPeople.webp"
 
 <Image src={letters} alt="Letters" width={350} height={263} />
 
-We have recently launched our GoFundMe page. Your donations are invaluable in ensuring the success of this project so please help us reach our goal so together, we can make the first French/English bilingual program in Perth happen.
+We have recently launched our [GoFundMe page](https://gofund.me/a3d8bd18). Your donations are invaluable in ensuring the success of this project so please help us reach our goal so together, we can make the first French/English bilingual program in Perth happen.
+
+<div style={{ maxWidth: "700px", margin: "32px auto" }} className="frame textCenter">
+
+### [Click here to support FABPSA on GoFundMe!](https://gofund.me/a3d8bd18)
+
+</div>
 
 ### Business Sponsorship
 
