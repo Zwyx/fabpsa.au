@@ -22,6 +22,12 @@ Our goal is to establish a high-quality bilingual program that provides students
 
 At <em>FABPSA</em>, we believe in the power of bilingualism as a valuable asset in today's interconnected world. Our organisation draws inspiration from the successful models implemented in the Eastern States that we strive to replicate within the vibrant community of Perth.
 
+<div style={{ maxWidth: "700px", margin: "32px auto" }} className="frame textCenter">
+
+### [Click here to support FABPSA!](supporting-us)
+
+</div>
+
 <Image src={children1} alt="Children" width={650} height={364} />
 
 <div className="frame">
