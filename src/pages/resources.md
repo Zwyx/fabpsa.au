@@ -9,6 +9,7 @@ import { Video } from "@site/src/components/Video";
 import womanComputer from "/static/img/womanComputer.webp"
 import peach from "/static/img/peach.webp"
 import sbsBilingualFamily from "/static/img/sbsBilingualFamily.webp"
+import kletsheads from "/static/img/kletsheads.webp"
 
 <TitleWithLogo>
 
@@ -76,12 +77,20 @@ Handbook: [English version](https://bilingualfamily.eu/Resources/PEaCH%20for%20e
 
 <Video src="https://youtube.com/embed/Bp2Fvkt-TRM" />
 
-## Podcast
+## Podcasts
 
-#### SBS – My Bilingual Family
+### SBS – My Bilingual Family
 
 <Image src={sbsBilingualFamily} alt="SBS bilingual family podcast" width={350} height={197} />
 
 Join host Dr Elaine Laforteza to hear the stories of families struggling with passing on language, and get helpful advice and practical tips from experts including speech pathologists and linguists. Raising children bilingually in English-dominant countries requires persistence and resourcefulness, especially if your mother language is not widely spoken. But it's worth the effort because the benefits for kids are immeasurable.
 
 Listen to My Bilingual family at [sbs.com.au/audio/podcast/my-bilingual-family](https://www.sbs.com.au/audio/podcast/my-bilingual-family) or wherever you get your podcasts!
+
+### Kletsheads
+
+<Image src={kletsheads} alt="Kletsheads podcast" width={350} height={157} />
+
+Dr. Sharon Unsworth, a linguist and mom of two bilingual kids, created this podcast for parents and professionals. Together with fellow experts, they delve into the science behind language development in bilingual children. We find the practical tips, real-life stories from kids, parents, and professionals truly inspiring.
+
+Listen to Kletsheads at [kletsheadspodcast.org](https://kletsheadspodcast.org/) or wherever you get your podcasts!
