@@ -200,6 +200,10 @@ em {
 	}
 }
 
+code {
+	tab-size: 4;
+}
+
 /* Page specifics tweaks */
 
 /** index */
