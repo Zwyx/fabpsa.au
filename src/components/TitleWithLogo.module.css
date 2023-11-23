@@ -16,5 +16,5 @@
 }
 
 .image {
-	margin: 0;
+	margin: 0 !important; /* work during dev without `!important`, but doesn't once built... */
 }
