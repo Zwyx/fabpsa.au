@@ -66,9 +66,9 @@ Sophie brings a unique blend of expertise and passion to <em>FABPSA</em>. With a
 
 </Portrait>
 
-<Portrait title="Alexis Vedelago – Website Designer / IT Specialist" image={alex} name="Alex" right>
+<Portrait title="Alex Vedelago – Website Designer / IT Specialist" image={alex} name="Alex" right>
 
-In 2019, Alexis settled in Perth after a journey through New Zealand and Tasmania. With his rich background in software development, Alexis is our website designer and the backbone of our IT team. His professional ethos is defined by his commitment, responsiveness and efficiency. Beyond his professional endeavours, Alexis is a devoted father, raising a bilingual child, which fuels his passion for bilingual education, making him an invaluable contributor to our project.
+In 2019, Alex settled in Perth after a journey through New Zealand and Tasmania. With his rich background in software development, Alex is our website designer and the backbone of our IT team. His professional ethos is defined by his commitment, responsiveness and efficiency. Beyond his professional endeavours, Alex is a devoted father, raising a bilingual child, which fuels his passion for bilingual education, making him an invaluable contributor to our project.
 
 </Portrait>
 
