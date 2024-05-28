@@ -19,7 +19,7 @@ import youngPeople from "/static/img/youngPeople.webp"
 
 <Image src={letters} alt="Letters" width={350} height={263} />
 
-We have recently launched our [GoFundMe page](https://gofund.me/a3d8bd18). Your donations are invaluable in ensuring the success of this project so please help us reach our goal so together, we can make the first French/English bilingual program in Perth happen.
+Please [click here to access our GoFundMe page](https://gofund.me/a3d8bd18). Your donations are invaluable in ensuring the success of this project so please help us reach our goal so together, we can make the first French/English bilingual program in Perth happen.
 
 <div style={{ maxWidth: "700px", margin: "32px auto" }} className="frame textCenter">
 
@@ -31,10 +31,12 @@ We have recently launched our [GoFundMe page](https://gofund.me/a3d8bd18). Your 
 
 <Image src={educationChangesTheWorld} alt="Piggybank" width={232} height={160} />
 
-<a href="mailto:contact@fabpsa.au">Contact us</a> if you want to learn more about our sponsorship packages and how your company can be part of the first French/English bilingual program in Perth.
+Please <a target="\_blank" href={require("/static/FABPSA-Sponsorships.pdf").default}>click here to read our brochure</a> and learn more about our sponsorship packages and how your company can be part of the first French/English bilingual program in Perth.
+
+Contact us at <a href="mailto:sponsors@fabspsa.com">sponsors@fabspsa.com</a>.
 
 ### Volunteering
 
 <Image src={youngPeople} alt="Young people" width={350} height={234} />
 
-We're often looking for passionate and driven individuals who want to contribute to our cause. <a href="mailto:contact@fabpsa.au">Contact us</a> if you want to be part of the adventure.
+We're often looking for passionate and driven individuals who want to contribute to our cause. Contact us at <a href="mailto:contact@fabpsa.au">contact@fabpsa.au</a> if you would like to be part of the adventure.
