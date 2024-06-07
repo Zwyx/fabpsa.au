@@ -31,12 +31,12 @@ Please [click here to access our GoFundMe page](https://gofund.me/a3d8bd18). You
 
 <Image src={educationChangesTheWorld} alt="Piggybank" width={232} height={160} />
 
-Please <a target="\_blank" href={require("/static/FABPSA-Sponsorships.pdf").default}>click here to read our brochure</a> and learn more about our sponsorship packages and how your company can be part of the first French/English bilingual program in Perth.
+Please [click here to access our brochure](/supporting-us/brochure) and learn more about our sponsorship packages and how your company can be part of the first French/English bilingual program in Perth.
 
-Contact us at <a href="mailto:sponsors@fabspsa.com">sponsors@fabspsa.com</a>.
+Contact us at [sponsors@fabspsa.com](mailto:sponsors@fabspsa.com).
 
 ### Volunteering
 
 <Image src={youngPeople} alt="Young people" width={350} height={234} />
 
-We're often looking for passionate and driven individuals who want to contribute to our cause. Contact us at <a href="mailto:contact@fabpsa.au">contact@fabpsa.au</a> if you would like to be part of the adventure.
+We're often looking for passionate and driven individuals who want to contribute to our cause. Contact us at [contact@fabspsa.com](mailto:contact@fabspsa.com) if you would like to be part of the adventure.
