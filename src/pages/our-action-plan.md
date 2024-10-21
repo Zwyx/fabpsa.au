@@ -41,7 +41,7 @@ import puzzle from "/static/img/puzzle.webp";
 
 - Enrol pupils.
 - Finalise the establishment of the program.
-- Welcome the future bilingual children (targeting February 2025).
+- Welcome the future bilingual children (targeting February 2026).
 
 </div>
 

@@ -11,6 +11,7 @@ import fabpsa from "/static/img/fabpsa.webp";
 import fabpsaDark from "/static/img/fabpsaDark.webp";
 import children1 from "/static/img/AdobeStock_603801482.webp";
 import children2 from "/static/img/AdobeStock_455007184.webp";
+import sponsorDoris from "/static/img/sponsor-doris.webp";
 
 <Image className="lightOnly" src={fabpsa} alt="FABPSA" width={250} height={318} />
 
@@ -20,15 +21,9 @@ import children2 from "/static/img/AdobeStock_455007184.webp";
 
 Our goal is to establish a high-quality bilingual program that provides students with the opportunity to develop fluency in both French and English while fostering cultural understanding and academic excellence.
 
+<Image src={children1} alt="Children" width={500} height={280} />
+
 At <em>FABPSA</em>, we believe in the power of bilingualism as a valuable asset in today's interconnected world. Our organisation draws inspiration from the successful models implemented in the Eastern States that we strive to replicate within the vibrant community of Perth.
-
-<div style={{ maxWidth: "700px", margin: "32px auto" }} className="frame textCenter">
-
-### [Click here to support FABPSA!](supporting-us)
-
-</div>
-
-<Image src={children1} alt="Children" width={650} height={364} />
 
 <div className="frame">
 
@@ -48,6 +43,10 @@ Together, we can make a difference in the lives of children, fostering linguisti
 
 <div style={{ marginTop: "32px" }} />
 
+## Support us
+
+[Click here](supporting-us) to make a donation, become a sponsor, or start volunteering.
+
 ## Write to us
 
 At contact@fabpsa.au
@@ -56,8 +55,18 @@ At contact@fabpsa.au
 
 ## Follow us
 
-On [facebook](https://www.facebook.com/profile.php?id=100081751441463)
+On [Facebook](https://www.facebook.com/profile.php?id=100081751441463).
 
 </div>
+
+</div>
+
+## Thank you to our sponsors
+
+<Image src={sponsorDoris} alt="Sponsor - Doris" width={600} height={274} />
+
+<div style={{ maxWidth: "700px", margin: "32px auto" }} className="frame textCenter">
+
+### [Click here to become a sponsor!](supporting-us)
 
 </div>
