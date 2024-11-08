@@ -16,13 +16,13 @@ import sophie from "/static/img/sophie.webp"
 import alex from "/static/img/alex.webp"
 import fabpsaTeam from "/static/img/fabpsaTeam.webp"
 
-# Our team
-
 <TitleWithLogo>
 
-## Our Committee
+# Our team
 
 </TitleWithLogo>
+
+## Our Committee
 
 <Portrait title="Celine L'her — Director of FABPSA / Operation Manager" image={celine} name="Celine">
 

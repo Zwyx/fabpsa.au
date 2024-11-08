@@ -8,15 +8,15 @@ import { TitleWithLogo } from "@site/src/components/TitleWithLogo";
 import children from "/static/img/AdobeStock_590508484.webp";
 import founders from "/static/img/founders.webp";
 
-# About us
-
 <TitleWithLogo>
 
-## The story behind FABPSA
+# About us
 
 </TitleWithLogo>
 
 <Image src={children} alt="Children" width={928} height={459} />
+
+## The story behind FABPSA
 
 <p><em>FABPSA</em> (French Australian Bilingual Program for School Association) is born out of the passion and determination of two French mothers, Celine and Julie, living in Perth, Western Australia.</p>
 
