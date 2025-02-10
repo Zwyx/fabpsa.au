@@ -7,7 +7,7 @@ on:
   push:
     branches:
       - main
-      - staging/**
+      - staging**
   workflow_dispatch:
 
 permissions:
@@ -33,7 +33,7 @@ jobs:
 
       - run: npm ci
 
-      - run: echo "BRANCH=$([[ "$(git branch --show-current)" == "main" ]] && echo "dist" || echo "staging/dist")" >> $GITHUB_ENV
+      - run: echo "BRANCH=$([[ "$(git branch --show-current)" == "main" ]] && echo "dist" || echo "staging-dist")" >> $GITHUB_ENV
         id: BRANCH
 
       - env:
