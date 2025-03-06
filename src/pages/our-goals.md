@@ -17,11 +17,11 @@ import children from "/static/img/AdobeStock_453540454.webp";
 
 ## Establishing a Bilingual Program
 
-<p><em>FABPSA</em> is committed to collaborating with public primary schools in Perth to implement a comprehensive bilingual program. Through this program, students will have the opportunity to learn French alongside their regular academic curriculum, fostering language proficiency and cross-cultural understanding.</p>
+<em>FABPSA</em> is committed to collaborating with public primary schools in Perth to implement a comprehensive bilingual program. Through this program, students will have the opportunity to learn French alongside their regular academic curriculum, fostering language proficiency and cross-cultural understanding.
 
 ## Encouraging Cultural Awareness
 
-<p><em>FABPSA</em> recognises the importance of cultural awareness and appreciation in fostering global citizens. We aim to expose students to the rich and diverse Francophone culture through cultural events, workshops, and partnerships with local Francophone organisations, encouraging an understanding and respect for different cultures.</p>
+<em>FABPSA</em> recognises the importance of cultural awareness and appreciation in fostering global citizens. We aim to expose students to the rich and diverse Francophone culture through cultural events, workshops, and partnerships with local Francophone organisations, encouraging an understanding and respect for different cultures.
 
 ## Promoting Language Acquisition
 
@@ -33,4 +33,4 @@ We believe in empowering educators and providing them with the necessary resourc
 
 ## Advocacy and Community Engagement
 
-<p><em>FABPSA</em> serves as a platform for advocating bilingual education and raising awareness of its benefits within the wider community. We actively engage with parents, educators, policymakers, and community leaders to promote the value of bilingualism and garner support for our program.</p>
+<em>FABPSA</em> serves as a platform for advocating bilingual education and raising awareness of its benefits within the wider community. We actively engage with parents, educators, policymakers, and community leaders to promote the value of bilingualism and garner support for our program.

@@ -1,0 +1,32 @@
+{
+	"Your name": {
+		"message": "Votre nom",
+		"description": "supporting-us/brochure - Name field placeholder"
+	},
+	"Organisation name (optional)": {
+		"message": "Votre organisation (optionel)",
+		"description": "supporting-us/brochure - Company field placeholder"
+	},
+	"Email address": {
+		"message": "Votre adresse email",
+		"description": "supporting-us/brochure - Email field placeholder"
+	},
+	"Thank you!": {
+		"message": "Merci !"
+	},
+	"Click here to read our brochure": {
+		"message": "Cliquez ici pour lire notre brochure"
+	},
+	"Email Address": {
+		"message": "Votre adresse email",
+		"description": "/ - Email address field placeholder"
+	},
+	"Subscribe": {
+		"message": "Souscrire",
+		"description": "/ - Subscribe button"
+	},
+	"We won't send you spam. Unsubscribe at any time.": {
+		"message": "Nous ne vous enverrons pas de spam. Désinscrivez-vous à tout moment.",
+		"description": "/ - Seems not used"
+	}
+}

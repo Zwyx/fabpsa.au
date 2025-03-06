@@ -24,19 +24,19 @@ import fabpsaTeam from "/static/img/fabpsaTeam.webp"
 
 ## Our Committee
 
-<Portrait title="Celine L'her — Director of FABPSA / Operation Manager" image={celine} name="Celine">
+<Portrait title="Celine L'her – Director of FABPSA / Operation Manager" image={celine} name="Celine">
 
 Celine is our dedicated co-founder, whose expertise spans teaching (French as a second language and mindfulness for children) and urban planning. Celine brings a wealth of knowledge in project management and education to our organisation. Her unique blend of skills not only reflects her passion for multilingualism and children's development but also strengthens our commitment to delivering impactful initiatives.
 
 </Portrait>
 
-<Portrait title="Julie Penin — Director of FABPSA / Pedagogy Coordinator" image={julie} name="Julie" right>
+<Portrait title="Julie Penin – Director of FABPSA / Pedagogy Coordinator" image={julie} name="Julie" right>
 
 Julie is our esteemed co-founder with a wealth of experience in working with diverse multilingual children and families. With a career spanning both France and Australia, Julie has cultivated a deep understanding of both educational systems. Her unwavering passion and extensive experience as a school and language teacher underscore her invaluable contributions to our organisation.
 
 </Portrait>
 
-<Portrait title="Charline Mesquida — Secretary / Sponsorship Coordinator" image={charline} name="Charline">
+<Portrait title="Charline Mesquida – Secretary / Sponsorship Coordinator" image={charline} name="Charline">
 
 Charline is our dedicated secretary and sponsorship specialist. Her journey in Perth began in 2013. As a mother of two bilingual children, her personal experience adds depth to her role. Prior to joining <em>FABPSA</em>, she spent 10 years as a Scientific Account Manager with a prominent international company, developing her skills in client relationship building.
 
@@ -66,9 +66,9 @@ Sophie brings a unique blend of expertise and passion to <em>FABPSA</em>. With a
 
 </Portrait>
 
-<Portrait title="Alex Vedelago – Website Designer / IT Specialist" image={alex} name="Alex" right>
+<Portrait title="Alex Vedelago – Web developer / IT Specialist" image={alex} name="Alex" right>
 
-In 2019, Alex settled in Perth after a journey through New Zealand and Tasmania. With his rich background in software development, Alex is our website designer and the backbone of our IT team. His professional ethos is defined by his commitment, responsiveness and efficiency. Beyond his professional endeavours, Alex is a devoted father, raising a bilingual child, which fuels his passion for bilingual education, making him an invaluable contributor to our project.
+In 2019, Alex settled in Perth after a journey through New Zealand and Tasmania. With his rich background in software development, Alex is our web developer and the backbone of our IT team. His professional ethos is defined by his commitment, responsiveness and efficiency. Beyond his professional endeavours, Alex is a devoted father, raising a bilingual child, which fuels his passion for bilingual education, making him an invaluable contributor to our project.
 
 </Portrait>
 

@@ -1,5 +1,5 @@
 import clsx from "clsx";
-import React, { FC, HTMLAttributes } from "react";
+import { FC, HTMLAttributes } from "react";
 import { Image } from "./Image";
 import style from "./TitleWithLogo.module.css";
 import fabpsaDarkSmall from "/static/img/fabpsaDarkSmall.webp";

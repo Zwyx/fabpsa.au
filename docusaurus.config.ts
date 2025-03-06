@@ -41,7 +41,7 @@ const config: Config = {
 
 	i18n: {
 		defaultLocale: "en",
-		locales: ["en"],
+		locales: ["en", "fr"],
 	},
 
 	markdown: {
@@ -101,6 +101,7 @@ const config: Config = {
 				{ to: "/supporting-us", label: "Supporting us" },
 				{ to: "/resources", label: "Resources" },
 				{ to: "mailto:contact@fabpsa.au", label: "Contact us" },
+				{ type: "localeDropdown" },
 			],
 		},
 		footer: {

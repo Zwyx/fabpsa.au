@@ -38,7 +38,7 @@ More immersive with immediate impact on language proficiency.
 - <strong>Extra funding from the Department of Education</strong>.
 - Potential grants and partnerships.
 
-Advantages for the students
+## Advantages for the students
 
 - Enhanced <strong>cognitive skills</strong>.
 - <strong>Higher academic achievements</strong> (improves results at NAPLAN).

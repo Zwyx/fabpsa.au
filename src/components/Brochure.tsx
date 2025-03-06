@@ -1,3 +1,4 @@
+import Translate, { translate } from "@docusaurus/Translate";
 import { useState } from "react";
 
 const CONTACT_DETAILS_SUBMITTED_KEY = "contact-details-submitted";
@@ -53,7 +54,10 @@ export const Brochure = () => {
 							margin: "12px 0",
 							padding: "4px 6px",
 						}}
-						placeholder="Your name"
+						placeholder={translate({
+							message: "Your name",
+							description: "supporting-us/brochure - Name field placeholder",
+						})}
 						required
 						value={name}
 						onChange={(e) => setName(e.target.value)}
@@ -66,7 +70,10 @@ export const Brochure = () => {
 							margin: "12px 0",
 							padding: "4px 6px",
 						}}
-						placeholder="Organisation name (optional)"
+						placeholder={translate({
+							message: "Organisation name (optional)",
+							description: "supporting-us/brochure - Company field placeholder",
+						})}
 						value={organisationName}
 						onChange={(e) => setOrganisationName(e.target.value)}
 					/>
@@ -78,7 +85,10 @@ export const Brochure = () => {
 							margin: "12px 0",
 							padding: "4px 6px",
 						}}
-						placeholder="Email address"
+						placeholder={translate({
+							message: "Email address",
+							description: "supporting-us/brochure - Email field placeholder",
+						})}
 						type="email"
 						required
 						value={emailAddress}
@@ -96,13 +106,15 @@ export const Brochure = () => {
 				</form>
 			) : (
 				<>
-					<div>Thank you!</div>
+					<div>
+						<Translate>Thank you!</Translate>
+					</div>
 
 					<a
 						target="\_blank"
 						href={require("/static/FABPSA-Sponsorships.pdf").default}
 					>
-						Click here to read our brochure
+						<Translate>Click here to read our brochure</Translate>
 					</a>
 				</>
 			)}

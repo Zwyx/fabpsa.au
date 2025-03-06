@@ -1,0 +1,10 @@
+{
+	"copyright": {
+		"message": "Copyright © 2025 FABPSA Inc/ACNC",
+		"description": "The footer copyright"
+	},
+	"logo.alt": {
+		"message": "Logo de Fabpsa",
+		"description": "The alt text of footer logo"
+	}
+}

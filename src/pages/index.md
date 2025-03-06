@@ -3,13 +3,13 @@ title: Welcome
 hide_table_of_contents: true
 ---
 
-# Welcome & Bienvenue
-
 import { ConvertKitForm } from "@site/src/components/ConvertKitForm";
 import { Image } from "@site/src/components/Image";
 import fabpsa from "/static/img/fabpsa.webp";
 import fabpsaDark from "/static/img/fabpsaDark.webp";
 import sponsorDoris from "/static/img/sponsor-doris.webp";
+
+# Welcome & Bienvenue
 
 <Image className="lightOnly" src={fabpsa} alt="FABPSA" width={250} height={318} />
 
