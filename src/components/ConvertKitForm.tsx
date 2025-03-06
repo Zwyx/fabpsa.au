@@ -1,4 +1,4 @@
-import React from "react";
+import { translate } from "@docusaurus/Translate";
 
 // There is also a script in `config.script` in `docusaurus.config.js` allowing the user
 // to not have to leave the page when subscribing
@@ -65,8 +65,14 @@ export const ConvertKitForm = () => (
 				<input
 					class="formkit-input"
 					name="email_address"
-					aria-label="Email Address"
-					placeholder="Email Address"
+					aria-label="${translate({
+						message: "Email Address",
+						description: "/ - Email address field placeholder",
+					})}"
+					placeholder="${translate({
+						message: "Email Address",
+						description: "/ - Email address field placeholder",
+					})}"
 					required=""
 					type="email"
 					style="
@@ -106,7 +112,10 @@ export const ConvertKitForm = () => (
 					<div></div>
 					<div></div>
 				</div>
-				<span class="">Subscribe</span>
+				<span class="">${translate({
+					message: "Subscribe",
+					description: "/ - Subscribe button",
+				})}</span>
 			</button>
 		</div>
 		<div
@@ -120,7 +129,10 @@ export const ConvertKitForm = () => (
 			"
 			data-darkreader-inline-color=""
 		>
-			<p>We won't send you spam. Unsubscribe at any time.</p>
+			<p>${translate({
+				message: "We won't send you spam. Unsubscribe at any time.",
+				description: "/ - Seems not used",
+			})}</p>
 		</div>
 	</div>
 	<style>

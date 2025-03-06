@@ -11,5 +11,12 @@
 	},
 	"typescript.tsdk": "node_modules/typescript/lib",
 	"typescript.enablePromptUseWorkspaceTsdk": true,
-	"cSpell.words": ["fabpsa", "Infima", "mxschmitt"]
+	"cSpell.words": ["fabpsa", "Infima", "mxschmitt"],
+	"cSpell.overrides": [
+		{
+			"filename": "i18n/fr/*",
+			"language": "fr-90",
+			"words": []
+		}
+	]
 }

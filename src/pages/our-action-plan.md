@@ -47,4 +47,4 @@ import puzzle from "/static/img/puzzle.webp";
 
 </div>
 
-<p><em>FABPSA</em> will communicate with its supporters on the progress of the project all along the journey.</p>
+<em>FABPSA</em> will communicate with its supporters on the progress of the project all along the journey.

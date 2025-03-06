@@ -85,7 +85,7 @@ Handbook: [English version](https://bilingualfamily.eu/Resources/PEaCH%20for%20e
 <Image src={sbsBilingualFamily} alt="SBS bilingual family podcast logo" width={350} height={197} />
 </a>
 
-Join host Dr Elaine Laforteza to hear the stories of families struggling with passing on language, and get helpful advice and practical tips from experts including speech pathologists and linguists. Raising children bilingually in English-dominant countries requires persistence and resourcefulness, especially if your mother language is not widely spoken. But it's worth the effort because the benefits for kids are immeasurable.
+Join host Dr. Elaine Laforteza to hear the stories of families struggling with passing on language, and get helpful advice and practical tips from experts including speech pathologists and linguists. Raising children bilingually in English-dominant countries requires persistence and resourcefulness, especially if your mother language is not widely spoken. But it's worth the effort because the benefits for kids are immeasurable.
 
 Listen to My Bilingual family at [sbs.com.au/audio/podcast/my-bilingual-family](https://www.sbs.com.au/audio/podcast/my-bilingual-family) or wherever you get your podcasts!
 
