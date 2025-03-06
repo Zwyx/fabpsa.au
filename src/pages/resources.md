@@ -19,11 +19,11 @@ import kletsheads from "/static/img/kletsheads.webp"
 
 Welcome to <em>FABPSA</em>'s dedicated resource page for people embarking on the incredible journey of raising bilingual and multilingual children. We understand that this adventure can be both incredibly rewarding and quite challenging. That's why we're committed to providing you with valuable resources. Explore our collection of free parent and educator guides, inspiring videos, engaging podcasts, and insightful talks, all tailored to help you navigate this unique parenting path with confidence and success. Your children's linguistic development is an extraordinary adventure, and we're here to empower you with some knowledge and tools you may need along the way.
 
-<Image src={womanComputer} alt="Woman using a computer" width={550} height={367} />
+<Image src={womanComputer} alt="" width={550} height={367} />
 
 ## PEaCH
 
-<Image src={peach} alt="Woman using a computer" width={450} height={139} />
+<Image src={peach} alt="PEaCH logo" width={450} height={139} />
 
 PEaCH is an Erasmus+ funded European Union project which offers free guidance for people and educators on how to support, maintain and develop a child's multilingual skills. It provides a diversity of free material such as practical guides, short videos, language activities resources in 24 languages.
 
@@ -82,7 +82,7 @@ Handbook: [English version](https://bilingualfamily.eu/Resources/PEaCH%20for%20e
 ### SBS – My Bilingual Family
 
 <a style={{ display: "block", width: "350px", margin: "0 auto" }} href="https://www.sbs.com.au/audio/podcast/my-bilingual-family">
-<Image src={sbsBilingualFamily} alt="SBS bilingual family podcast" width={350} height={197} />
+<Image src={sbsBilingualFamily} alt="SBS bilingual family podcast logo" width={350} height={197} />
 </a>
 
 Join host Dr Elaine Laforteza to hear the stories of families struggling with passing on language, and get helpful advice and practical tips from experts including speech pathologists and linguists. Raising children bilingually in English-dominant countries requires persistence and resourcefulness, especially if your mother language is not widely spoken. But it's worth the effort because the benefits for kids are immeasurable.
@@ -92,7 +92,7 @@ Listen to My Bilingual family at [sbs.com.au/audio/podcast/my-bilingual-family](
 ### Kletsheads
 
 <a style={{ display: "block", width: "350px", margin: "0 auto" }} href="https://kletsheadspodcast.org/">
-<Image src={kletsheads} alt="Kletsheads podcast" width={350} height={157} />
+<Image src={kletsheads} alt="Kletsheads podcast logo" width={350} height={157} />
 </a>
 
 Dr. Sharon Unsworth, a linguist and mom of two bilingual kids, created this podcast for parents and professionals. Together with fellow experts, they delve into the science behind language development in bilingual children. We find the practical tips, real-life stories from kids, parents, and professionals truly inspiring.

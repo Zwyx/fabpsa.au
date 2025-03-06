@@ -14,7 +14,7 @@ import founders from "/static/img/founders.webp";
 
 </TitleWithLogo>
 
-<Image src={children} alt="Children" width={928} height={459} />
+<Image src={children} alt="" width={928} height={459} />
 
 ## The story behind FABPSA
 

@@ -13,7 +13,7 @@ import adobeStock375190906 from "/static/img/AdobeStock_375190906.webp";
 
 </TitleWithLogo>
 
-<Image src={adobeStock375190906} alt="Kid stuff" width={928} height={370} />
+<Image src={adobeStock375190906} alt="" width={928} height={370} />
 
 ## The bilingual program
 

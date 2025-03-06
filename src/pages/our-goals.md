@@ -13,7 +13,7 @@ import children from "/static/img/AdobeStock_453540454.webp";
 
 </TitleWithLogo>
 
-<Image src={children} alt="Children" width={650} height={433} />
+<Image src={children} alt="" width={650} height={433} />
 
 ## Establishing a Bilingual Program
 

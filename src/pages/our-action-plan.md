@@ -17,7 +17,7 @@ import puzzle from "/static/img/puzzle.webp";
 
 <div style={{ paddingTop: "64px" }}>
 
-<Image  className="ourActionPlanImage" src={puzzle} alt="puzzle pieces" width={250} />
+<Image  className="ourActionPlanImage" src={puzzle} alt="" width={250} />
 
 </div>
 
