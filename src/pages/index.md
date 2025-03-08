@@ -3,11 +3,14 @@ title: Welcome
 hide_table_of_contents: true
 ---
 
+import { LanguageCookie } from "@site/src/components/LanguageCookie";
 import { ConvertKitForm } from "@site/src/components/ConvertKitForm";
 import { Image } from "@site/src/components/Image";
 import fabpsa from "/static/img/fabpsa.webp";
 import fabpsaDark from "/static/img/fabpsaDark.webp";
 import sponsorDoris from "/static/img/sponsor-doris.webp";
+
+<LanguageCookie />
 
 # Welcome & Bienvenue
 
