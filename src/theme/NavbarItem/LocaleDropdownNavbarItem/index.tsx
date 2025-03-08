@@ -2,6 +2,7 @@ import { translate } from "@docusaurus/Translate";
 import { useLocation } from "@docusaurus/router";
 import { useAlternatePageUtils } from "@docusaurus/theme-common/internal";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+import { LOCALE_KEY } from "@site/src/lib/local-storage-keys";
 import IconLanguage from "@theme/Icon/Language";
 import type { LinkLikeNavbarItemProps } from "@theme/NavbarItem";
 import DropdownNavbarItem from "@theme/NavbarItem/DropdownNavbarItem";
@@ -46,6 +47,7 @@ export default function LocaleDropdownNavbarItem({
 						? "menu__link--active"
 						: "dropdown__link--active"
 					: "",
+			onClick: () => localStorage.setItem(LOCALE_KEY, locale),
 		};
 	});
 
