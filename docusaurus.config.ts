@@ -86,7 +86,6 @@ const config: Config = {
 			},
 			title: "FABPSA",
 			items: [
-				{ to: "/about-us", label: "About us" },
 				{
 					type: "dropdown",
 					label: "Our project",
@@ -96,11 +95,24 @@ const config: Config = {
 						{ to: "/our-action-plan", label: "Our action plan" },
 					],
 				},
+				{
+					type: "dropdown",
+					label: "About us",
+					items: [
+						{ to: "/about-us", label: "About us" },
+						{ to: "/our-team", label: "Our team" },
+					],
+				},
 				{ to: "/the-program", label: "The program" },
-				{ to: "/our-team", label: "Our team" },
-				{ to: "/supporting-us", label: "Supporting us" },
+				{
+					type: "dropdown",
+					label: "Get involved",
+					items: [
+						{ to: "/supporting-us", label: "Supporting us" },
+						{ to: "mailto:contact@fabpsa.au", label: "Contact us" },
+					],
+				},
 				{ to: "/resources", label: "Resources" },
-				{ to: "mailto:contact@fabpsa.au", label: "Contact us" },
 				{ type: "localeDropdown" },
 			],
 		},

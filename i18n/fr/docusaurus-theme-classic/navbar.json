@@ -7,33 +7,25 @@
 		"message": "Logo de Fabpsa",
 		"description": "The alt text of navbar logo"
 	},
-	"item.label.About us": {
-		"message": "À propos",
-		"description": "Navbar item with label About us"
-	},
 	"item.label.Our project": {
 		"message": "Notre projet",
 		"description": "Navbar item with label Our project"
+	},
+	"item.label.About us": {
+		"message": "À propos",
+		"description": "Navbar item with label About us"
 	},
 	"item.label.The program": {
 		"message": "Le programme",
 		"description": "Navbar item with label The program"
 	},
-	"item.label.Our team": {
-		"message": "Notre équipe",
-		"description": "Navbar item with label Our team"
-	},
-	"item.label.Supporting us": {
-		"message": "Nous soutenir",
-		"description": "Navbar item with label Supporting us"
+	"item.label.Get involved": {
+		"message": "S'impliquer",
+		"description": "Navbar item with label Get involved"
 	},
 	"item.label.Resources": {
 		"message": "Resources",
 		"description": "Navbar item with label Resources"
-	},
-	"item.label.Contact us": {
-		"message": "Nous contacter",
-		"description": "Navbar item with label Contact us"
 	},
 	"item.label.Our vision": {
 		"message": "Notre vision",
@@ -46,5 +38,17 @@
 	"item.label.Our action plan": {
 		"message": "Notre stratégie",
 		"description": "Navbar item with label Our action plan"
+	},
+	"item.label.Our team": {
+		"message": "Notre équipe",
+		"description": "Navbar item with label Our team"
+	},
+	"item.label.Supporting us": {
+		"message": "Nous soutenir",
+		"description": "Navbar item with label Supporting us"
+	},
+	"item.label.Contact us": {
+		"message": "Nous contacter",
+		"description": "Navbar item with label Contact us"
 	}
 }
