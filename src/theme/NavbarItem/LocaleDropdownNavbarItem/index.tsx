@@ -3,13 +3,10 @@ import { useLocation } from "@docusaurus/router";
 import { useAlternatePageUtils } from "@docusaurus/theme-common/internal";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import { LOCALE_KEY } from "@site/src/lib/local-storage-keys";
-import IconLanguage from "@theme/Icon/Language";
 import type { LinkLikeNavbarItemProps } from "@theme/NavbarItem";
 import DropdownNavbarItem from "@theme/NavbarItem/DropdownNavbarItem";
 import type { Props } from "@theme/NavbarItem/LocaleDropdownNavbarItem";
 import { type ReactNode } from "react";
-
-import styles from "./styles.module.css";
 
 export default function LocaleDropdownNavbarItem({
 	mobile,
@@ -41,9 +38,9 @@ export default function LocaleDropdownNavbarItem({
 				// eslint-disable-next-line no-nested-ternary
 				locale === currentLocale
 					? // Similar idea as DefaultNavbarItem: select the right Infima active
-					  // class name. This cannot be substituted with isActive, because the
-					  // target URLs contain `pathname://` and therefore are not NavLinks!
-					  mobile
+						// class name. This cannot be substituted with isActive, because the
+						// target URLs contain `pathname://` and therefore are not NavLinks!
+						mobile
 						? "menu__link--active"
 						: "dropdown__link--active"
 					: "",
@@ -54,13 +51,14 @@ export default function LocaleDropdownNavbarItem({
 	const items = [...dropdownItemsBefore, ...localeItems, ...dropdownItemsAfter];
 
 	// Mobile is handled a bit differently
-	const dropdownLabel = mobile
-		? translate({
-				message: "Languages",
-				id: "theme.navbar.mobileLanguageDropdown.label",
-				description: "The label for the mobile language switcher dropdown",
-		  })
-		: localeConfigs[currentLocale]!.label;
+	const dropdownLabel = // mobile
+		//?
+		translate({
+			message: "Languages",
+			id: "theme.navbar.mobileLanguageDropdown.label",
+			description: "The label for the mobile language switcher dropdown",
+		});
+	// : localeConfigs[currentLocale]!.label;
 
 	return (
 		<DropdownNavbarItem
@@ -68,7 +66,7 @@ export default function LocaleDropdownNavbarItem({
 			mobile={mobile}
 			label={
 				<>
-					<IconLanguage className={styles.iconLanguage} />
+					{/* <IconLanguage className={styles.iconLanguage} /> */}
 					{dropdownLabel}
 				</>
 			}
