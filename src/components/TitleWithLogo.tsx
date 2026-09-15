@@ -5,8 +5,10 @@ import style from "./TitleWithLogo.module.css";
 import fabpsaDarkSmall from "/static/img/fabpsaDarkSmall.webp";
 import fabpsaSmall from "/static/img/fabpsaSmall.webp";
 
-interface TitleWithLogoProps
-	extends Pick<HTMLAttributes<HTMLDivElement>, "children"> {}
+interface TitleWithLogoProps extends Pick<
+	HTMLAttributes<HTMLDivElement>,
+	"children"
+> {}
 
 export const TitleWithLogo: FC<TitleWithLogoProps> = ({ children }) => (
 	<div className={style.titleWithLogo}>

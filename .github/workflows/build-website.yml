@@ -21,17 +21,19 @@ jobs:
   build-website:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - run: echo "nvmrc=$(cat .nvmrc)" >> $GITHUB_ENV
         id: nvmrc
 
-      - uses: actions/setup-node@v3
+      - uses: pnpm/setup@v2
         with:
-          node-version: "${{ env.nvmrc }}"
-          cache: npm
+          version: 11.10.0
+          runtime: "node@${{ env.nvmrc }}"
+          cache: true
+          install: false # We want to run `ci`
 
-      - run: npm ci
+      - run: pnpm ci
 
       - run: echo "BRANCH=$([[ "$(git branch --show-current)" == "main" ]] && echo "dist" || echo "staging-dist")" >> $GITHUB_ENV
         id: BRANCH
@@ -39,7 +41,7 @@ jobs:
       - env:
           DOMAIN: ${{ secrets.DOMAIN }}
           PLAUSIBLE_SCRIPT_SRC: ${{ secrets.PLAUSIBLE_SCRIPT_SRC }}
-        run: npm run build
+        run: pnpm run build
 
       - run: |
           [[ "${{ env.BRANCH }}" != "dist" ]] && git fetch && git branch main remotes/origin/main

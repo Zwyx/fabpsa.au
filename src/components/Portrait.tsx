@@ -3,8 +3,10 @@ import { FC, HTMLAttributes } from "react";
 import { Image } from "./Image";
 import style from "./Portrait.module.css";
 
-interface PortraitProps
-	extends Pick<HTMLAttributes<HTMLDivElement>, "children"> {
+interface PortraitProps extends Pick<
+	HTMLAttributes<HTMLDivElement>,
+	"children"
+> {
 	title: string;
 	image: string;
 	name: string;

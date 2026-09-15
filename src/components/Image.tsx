@@ -3,8 +3,10 @@ import { FC, HTMLAttributes } from "react";
 import style from "./Image.module.css";
 import { Legend } from "./Legend";
 
-interface ImageProps
-	extends Pick<HTMLAttributes<HTMLDivElement>, "className" | "children"> {
+interface ImageProps extends Pick<
+	HTMLAttributes<HTMLDivElement>,
+	"className" | "children"
+> {
 	src: string;
 	alt: string;
 	/** Provide `width` and `height` to prevent layout shift */

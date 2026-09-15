@@ -11,7 +11,7 @@
 	},
 	"js/ts.tsdk.path": "node_modules/typescript/lib",
 	"js/ts.tsdk.promptToUseWorkspaceVersion": true,
-	"cSpell.words": ["fabpsa", "Infima", "mxschmitt"],
+	"cSpell.words": ["fabpsa", "formkit", "Infima", "mxschmitt"],
 	"cSpell.overrides": [
 		{
 			"filename": "i18n/fr/*",

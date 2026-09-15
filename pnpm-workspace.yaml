@@ -1,0 +1,4 @@
+minimumReleaseAge: 10080 # 10080 minutes = 1 week
+
+allowBuilds:
+  core-js: false # Only prints attribution/ads
