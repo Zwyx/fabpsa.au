@@ -84,7 +84,7 @@ const config: Config = {
 				srcDark: "img/fabpsaDarkSmall.webp",
 				href: "/",
 			},
-			title: "FABPSA",
+			title: "",
 			items: [
 				{
 					type: "dropdown",

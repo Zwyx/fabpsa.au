@@ -6,6 +6,7 @@ hide_table_of_contents: true
 import { Image } from "@site/src/components/Image";
 import { TitleWithLogo } from "@site/src/components/TitleWithLogo";
 import { Video } from "@site/src/components/Video";
+import { FabpsaName } from "@site/src/components/FabpsaName";
 import womanComputer from "/static/img/womanComputer.webp"
 import peach from "/static/img/peach.webp"
 import sbsBilingualFamily from "/static/img/sbsBilingualFamily.webp"
@@ -17,7 +18,7 @@ import kletsheads from "/static/img/kletsheads.webp"
 
 </TitleWithLogo>
 
-Welcome to <em>FABPSA</em>'s dedicated resource page for people embarking on the incredible journey of raising bilingual and multilingual children. We understand that this adventure can be both incredibly rewarding and quite challenging. That's why we're committed to providing you with valuable resources. Explore our collection of free parent and educator guides, inspiring videos, engaging podcasts, and insightful talks, all tailored to help you navigate this unique parenting path with confidence and success. Your children's linguistic development is an extraordinary adventure, and we're here to empower you with some knowledge and tools you may need along the way.
+Welcome to <FabpsaName />'s dedicated resource page for people embarking on the incredible journey of raising bilingual and multilingual children. We understand that this adventure can be both incredibly rewarding and quite challenging. That's why we're committed to providing you with valuable resources. Explore our collection of free parent and educator guides, inspiring videos, engaging podcasts, and insightful talks, all tailored to help you navigate this unique parenting path with confidence and success. Your children's linguistic development is an extraordinary adventure, and we're here to empower you with some knowledge and tools you may need along the way.
 
 <Image src={womanComputer} alt="" width={550} height={367} />
 

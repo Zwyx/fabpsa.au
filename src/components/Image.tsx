@@ -1,23 +1,9 @@
 import clsx from "clsx";
-import { FC, HTMLAttributes } from "react";
+import { HTMLAttributes } from "react";
 import style from "./Image.module.css";
 import { Legend } from "./Legend";
 
-interface ImageProps extends Pick<
-	HTMLAttributes<HTMLDivElement>,
-	"className" | "children"
-> {
-	src: string;
-	alt: string;
-	/** Provide `width` and `height` to prevent layout shift */
-	width?: number;
-	height?: number;
-	withFrame?: boolean;
-	legend?: string;
-	borderRadius?: string;
-}
-
-export const Image: FC<ImageProps> = ({
+export const Image = ({
 	src,
 	alt,
 	width,
@@ -27,6 +13,15 @@ export const Image: FC<ImageProps> = ({
 	borderRadius,
 	className,
 	children,
+}: Pick<HTMLAttributes<HTMLDivElement>, "className" | "children"> & {
+	src: string;
+	alt: string;
+	/** Provide `width` and `height` to prevent layout shift */
+	width?: number;
+	height?: number;
+	withFrame?: boolean;
+	legend?: string;
+	borderRadius?: string;
 }) => {
 	const legend = legendProp || children;
 

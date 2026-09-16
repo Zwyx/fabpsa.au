@@ -15,6 +15,6 @@ import children from "/static/img/AdobeStock_588816203.webp";
 
 <Image src={children} alt="" width={650} height={433} />
 
-Nous imaginons un avenir où les enfants de Perth auront accès à un programme d’éducation bilingue d’exception. Ce programme leur permettra d’acquérir des compétences linguistiques et culturelles, ainsi que la perspective globale nécessaire à leur développement dans un monde interconnecté et en constante évolution.
+Nous imaginons un avenir où les enfants de Perth auront accès à un programme d'éducation bilingue d'exception. Ce programme leur permettra d'acquérir des compétences linguistiques et culturelles, ainsi que la perspective globale nécessaire à leur développement dans un monde interconnecté et en constante évolution.
 
-Avec l’intégration de la langue française et de la culture du monde francophone au programme scolaire australien, nous cherchons à offrir aux élèves une expérience éducative unique.
+Avec l'intégration de la langue française et de la culture du monde francophone au programme scolaire australien, nous cherchons à offrir aux élèves une expérience éducative unique.

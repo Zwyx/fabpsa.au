@@ -16,7 +16,7 @@
 		{
 			"filename": "i18n/fr/*",
 			"language": "fr-90",
-			"words": []
+			"words": ["convert", "hide", "margin", "true"]
 		}
 	]
 }

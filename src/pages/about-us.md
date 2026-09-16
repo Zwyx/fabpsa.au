@@ -5,6 +5,7 @@ hide_table_of_contents: true
 
 import { Image } from "@site/src/components/Image";
 import { TitleWithLogo } from "@site/src/components/TitleWithLogo";
+import { FabpsaName } from "@site/src/components/FabpsaName";
 import children from "/static/img/AdobeStock_590508484.webp";
 import founders from "/static/img/founders.webp";
 
@@ -16,9 +17,9 @@ import founders from "/static/img/founders.webp";
 
 <Image src={children} alt="" width={928} height={459} />
 
-## The story behind FABPSA
+## The story behind <FabpsaName />
 
-<em>FABPSA</em> (French Australian Bilingual Program for School Association) is born out of the passion and determination of two French mothers, Celine and Julie, living in Perth, Western Australia.
+<FabpsaName /> (French Australian Bilingual Program for School Association) is born out of the passion and determination of two French mothers, Celine and Julie, living in Perth, Western Australia.
 
 United by their shared passion for education and as their children played and laughed together during playdates, their conversations turned to their dreams of establishing a bilingual school in their adopted city. They were perplexed by the absence of such a school in Western Australia when there were successful examples in the Eastern States. They knew that their endeavour would not be easy as similar projects failed in the last few years. Fuelled by their passion for education and determined to learn from past mistakes, they decided to give it a go. Pourquoi pas?!
 

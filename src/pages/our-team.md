@@ -6,6 +6,7 @@ hide_table_of_contents: true
 import { Image } from "@site/src/components/Image";
 import { Portrait } from "@site/src/components/Portrait";
 import { TitleWithLogo } from "@site/src/components/TitleWithLogo";
+import { FabpsaName } from "@site/src/components/FabpsaName";
 import celine from "/static/img/celine.webp"
 import charline from "/static/img/charline.webp"
 import julie from "/static/img/julie.webp"
@@ -38,7 +39,7 @@ Julie is our esteemed co-founder with a wealth of experience in working with div
 
 <Portrait title="Charline Mesquida – Secretary / Sponsorship Coordinator" image={charline} name="Charline">
 
-Charline is our dedicated secretary and sponsorship specialist. Her journey in Perth began in 2013. As a mother of two bilingual children, her personal experience adds depth to her role. Prior to joining <em>FABPSA</em>, she spent 10 years as a Scientific Account Manager with a prominent international company, developing her skills in client relationship building.
+Charline is our dedicated secretary and sponsorship specialist. Her journey in Perth began in 2013. As a mother of two bilingual children, her personal experience adds depth to her role. Prior to joining <FabpsaName />, she spent 10 years as a Scientific Account Manager with a prominent international company, developing her skills in client relationship building.
 
 </Portrait>
 
@@ -62,7 +63,7 @@ Yohann arrived in Perth 16 years ago. He has a 6 year old boy who is fluent in b
 
 <Portrait title="Sophie Piat – Sponsorship and Pedagogy Specialist" image={sophie} name="Sophie">
 
-Sophie brings a unique blend of expertise and passion to <em>FABPSA</em>. With a background in Psychology and extensive experience as a Language Assistant and Special Needs Education Assistant, she is a valuable asset to our pedagogy team. Strong advocate for multilingualism and President of the Parents & Citizens' Association at her children's school in Perth, she is also a driving force for our sponsorship team.
+Sophie brings a unique blend of expertise and passion to <FabpsaName />. With a background in Psychology and extensive experience as a Language Assistant and Special Needs Education Assistant, she is a valuable asset to our pedagogy team. Strong advocate for multilingualism and President of the Parents & Citizens' Association at her children's school in Perth, she is also a driving force for our sponsorship team.
 
 </Portrait>
 

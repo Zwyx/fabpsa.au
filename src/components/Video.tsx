@@ -1,11 +1,6 @@
-import { FC } from "react";
 import style from "./Video.module.css";
 
-interface VideoProps {
-	src: string;
-}
-
-export const Video: FC<VideoProps> = ({ src }) => (
+export const Video = ({ src }: { src: string }) => (
 	<iframe
 		className={style.videoEmbed}
 		src={src}

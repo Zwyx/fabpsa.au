@@ -5,6 +5,7 @@ hide_table_of_contents: true
 
 import { Image } from "@site/src/components/Image";
 import { TitleWithLogo } from "@site/src/components/TitleWithLogo";
+import { FabpsaName } from "@site/src/components/FabpsaName";
 import adobeStock375190906 from "/static/img/AdobeStock_375190906.webp";
 
 <TitleWithLogo>
@@ -14,6 +15,8 @@ import adobeStock375190906 from "/static/img/AdobeStock_375190906.webp";
 </TitleWithLogo>
 
 <Image src={adobeStock375190906} alt="" width={928} height={370} />
+
+The <FabpsaName /> bilingual program integrates French language teaching directly into the Western Australian curriculum — making bilingual education accessible to every family, whether they speak French at home or not. We offer two delivery models, designed to fit any school's readiness and ambition.
 
 ## The bilingual program
 
@@ -44,7 +47,7 @@ More immersive with immediate impact on language proficiency.
 - <strong>Higher academic achievements</strong> (improves results at NAPLAN).
 - <strong>Bilingual proficiency</strong> improves communication skills.
 
-## The services offered by FABPSA
+## The services offered by <FabpsaName />
 
 - <strong>A pool of French-speaking teachers</strong> (TRBWA registered) and <strong>EA</strong> (including special needs).
 - Professional development.
@@ -54,3 +57,13 @@ More immersive with immediate impact on language proficiency.
 - Tutoring.
 - Extracurricular activities.
 - And more...
+
+<div style={{ marginTop: "48px" }} className="frame textCenter">
+
+## Interested in bringing the program to your school?
+
+We would love to hear from you — whether you are a parent, a principal, or simply curious.
+
+Write to us at contact@fabpsa.au
+
+</div>

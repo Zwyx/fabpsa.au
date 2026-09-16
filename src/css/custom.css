@@ -3,9 +3,30 @@
 /* Color palettes built using https://docusaurus.io/docs/styling-layout#styling-your-site-with-infima */
 
 :root {
+	--fabpsa-primary: #3a4ea2;
+	--fabpsa-secondary: #cf3e45;
+	--fabpsa-tertiary: #ffffff;
+
+	--ifm-color-primary: var(--fabpsa-primary);
+	--ifm-color-primary-dark: #344692;
+	--ifm-color-primary-darker: #31428a;
+	--ifm-color-primary-darkest: #293771;
+	--ifm-color-primary-light: #4056b2;
+	--ifm-color-primary-lighter: #435aba;
+	--ifm-color-primary-lightest: #5a6ec4;
+
+	--text-color: var(--ifm-color-primary-darkest);
+	--ifm-link-color: var(--ifm-color-primary-lightest);
+
+	--frame-background-color: #3a4ea2; /* use --fabpsa-primary light for both light and dark modes */
+
+	--ifm-code-font-size: 95%;
+	--docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+[data-theme="dark"] {
 	--fabpsa-primary: #4888c8;
-	--fabpsa-primary-dark: #292562;
-	--fabpsa-secondary: #fed600;
+	--fabpsa-secondary: #d65c62;
 
 	--ifm-color-primary: var(--fabpsa-primary);
 	--ifm-color-primary-dark: #397abc;
@@ -15,25 +36,8 @@
 	--ifm-color-primary-lighter: #679cd1;
 	--ifm-color-primary-lightest: #87b1db;
 
-	--text-color: var(--fabpsa-primary-dark);
-
-	--ifm-code-font-size: 95%;
-	--docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-}
-
-[data-theme="dark"] {
-	--fabpsa-primary: #a7c7f0;
-	--fabpsa-secondary: #fed600;
-
-	--ifm-color-primary: var(--fabpsa-primary);
-	--ifm-color-primary-dark: #84b1ea;
-	--ifm-color-primary-darker: #73a6e7;
-	--ifm-color-primary-darkest: #3f85de;
-	--ifm-color-primary-light: #caddf6;
-	--ifm-color-primary-lighter: #dbe8f9;
-	--ifm-color-primary-lightest: #ffffff;
-
-	--text-color: #c0c0d7;
+	--text-color: var(--ifm-color-primary-lightest);
+	--ifm-link-color: var(--ifm-color-primary);
 
 	--docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
@@ -54,6 +58,16 @@
 
 .navbar__title {
 	padding-right: 2px; /* prevent the italic title from being slightly truncated */
+}
+
+.navbar__title::before {
+	content: "FAB";
+	color: var(--fabpsa-primary);
+}
+
+.navbar__title::after {
+	content: "PSA";
+	color: var(--fabpsa-secondary);
 }
 
 .navbar__brand,
@@ -94,7 +108,6 @@ h1 {
 	margin-bottom: 32px;
 	font-family: "Caveat", cursive;
 	font-size: 3em;
-	color: var(--text-color);
 	color: var(--ifm-color-primary);
 }
 
@@ -109,7 +122,6 @@ h3 {
 	margin: 32px 0;
 	font-family: "Caveat", cursive;
 	font-size: 1.7em;
-	color: var(--text-color);
 	color: var(--ifm-color-primary);
 }
 
@@ -127,13 +139,6 @@ h4 {
 	p {
 		text-align: justify;
 	}
-}
-
-/* note: if a paragraph starts with an <em>, it needs to be manually wrapped in a <p> */
-em {
-	font-family: "Caveat", cursive;
-	font-weight: bold;
-	padding-right: 3px;
 }
 
 .textCenter p,
@@ -158,25 +163,24 @@ em {
 }
 
 .frame {
-	background-color: var(--fabpsa-primary-dark);
-	/* box-shadow: 3px 3px 10px 0 var(--fabpsa-primary-dark); */
+	background-color: var(--frame-background-color);
 	border-radius: 10px;
 	padding: 32px;
-	color: #ebedf0;
+	color: var(--fabpsa-tertiary);
 }
 
-.frame h2,
 .frame a {
-	color: var(--fabpsa-secondary);
+	color: color-mix(var(--fabpsa-tertiary), transparent 35%);
 }
 
 .frame h2 {
 	margin-top: 0;
 	margin-bottom: 16px;
+	color: var(--fabpsa-tertiary);
 }
 
 .footer {
-	background-color: var(--fabpsa-primary-dark);
+	background-color: var(--frame-background-color);
 }
 
 .footer .container {

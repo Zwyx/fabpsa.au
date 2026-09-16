@@ -4,6 +4,7 @@ hide_table_of_contents: true
 ---
 
 import { Image } from "@site/src/components/Image";
+import { FabpsaName } from "@site/src/components/FabpsaName";
 import fabpsa from "/static/img/fabpsa.webp";
 import fabpsaDark from "/static/img/fabpsaDark.webp";
 
@@ -15,6 +16,6 @@ import fabpsaDark from "/static/img/fabpsaDark.webp";
 
 <div className="textCenter">
 
-Thank you! We will keep you informed about <em>FABPSA</em> and our project.
+Thank you! We will keep you informed about <FabpsaName /> and our project.
 
 </div>

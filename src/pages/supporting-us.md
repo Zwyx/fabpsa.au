@@ -5,6 +5,7 @@ hide_table_of_contents: true
 
 import { Image } from "@site/src/components/Image";
 import { TitleWithLogo } from "@site/src/components/TitleWithLogo";
+import { FabpsaName } from "@site/src/components/FabpsaName";
 import letters from "/static/img/letters.webp"
 import educationChangesTheWorld from "/static/img/educationChangesTheWorld.webp"
 import youngPeople from "/static/img/youngPeople.webp"
@@ -14,6 +15,9 @@ import youngPeople from "/static/img/youngPeople.webp"
 # Pourquoi Pas… Supporting us
 
 </TitleWithLogo>
+
+<FabpsaName /> runs entirely on community energy — passionate parents, educators, and
+businesses who believe in bilingual education. Here is how you can be part of it.
 
 ### Business Sponsorship
 
@@ -28,3 +32,11 @@ Contact us at [sponsors@fabpsa.au](mailto:sponsors@fabpsa.au).
 <Image src={youngPeople} alt="" width={350} height={234} />
 
 We're often looking for passionate and driven individuals who want to contribute to our cause. Contact us at [contact@fabpsa.au](mailto:contact@fabpsa.au) if you would like to be part of the adventure.
+
+### Write to Us
+
+Have a question, an idea, or just want to know more? We would love to hear from you.
+
+- General enquiries: contact@fabpsa.au
+- Sponsorship: sponsors@fabpsa.au
+- Follow us on [Facebook](https://www.facebook.com/profile.php?id=100081751441463) and stay up to date with our progress.

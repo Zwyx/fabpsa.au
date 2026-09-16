@@ -5,6 +5,7 @@ hide_table_of_contents: true
 
 import { Image } from "@site/src/components/Image";
 import { TitleWithLogo } from "@site/src/components/TitleWithLogo";
+import { FabpsaName } from "@site/src/components/FabpsaName";
 import puzzle from "/static/img/puzzle.webp";
 
 <TitleWithLogo>
@@ -47,4 +48,4 @@ import puzzle from "/static/img/puzzle.webp";
 
 </div>
 
-<em>FABPSA</em> will communicate with its supporters on the progress of the project all along the journey.
+<FabpsaName /> will communicate with its supporters on the progress of the project all along the journey.

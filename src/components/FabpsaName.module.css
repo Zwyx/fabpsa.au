@@ -1,0 +1,13 @@
+.fabpsaName {
+	font-family: "Caveat", cursive;
+	font-weight: bold;
+	padding-right: 3px;
+}
+
+.fabpsaNameFab {
+	color: var(--fabpsa-primary);
+}
+
+.fabpsaNamePsa {
+	color: var(--fabpsa-secondary);
+}

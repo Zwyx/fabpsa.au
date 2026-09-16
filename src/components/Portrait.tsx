@@ -1,26 +1,19 @@
 import clsx from "clsx";
-import { FC, HTMLAttributes } from "react";
+import { HTMLAttributes } from "react";
 import { Image } from "./Image";
 import style from "./Portrait.module.css";
 
-interface PortraitProps extends Pick<
-	HTMLAttributes<HTMLDivElement>,
-	"children"
-> {
-	title: string;
-	image: string;
-	name: string;
-	description: string;
-	right?: string;
-}
-
-export const Portrait: FC<PortraitProps> = ({
+export const Portrait = ({
 	title,
 	image,
 	name,
-	description,
 	right,
 	children,
+}: Pick<HTMLAttributes<HTMLDivElement>, "children"> & {
+	title: string;
+	image: string;
+	name: string;
+	right?: string;
 }) => (
 	<>
 		<h3 className={clsx(style.title, right ? style.right : "")}>{title}</h3>
