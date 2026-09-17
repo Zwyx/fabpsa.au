@@ -1,5 +1,5 @@
 ---
-title: Subscription confirmed!
+title: Inscription confirmée !
 hide_table_of_contents: true
 ---
 
@@ -8,14 +8,14 @@ import { FabpsaName } from "@site/src/components/FabpsaName";
 import fabpsa from "/static/img/fabpsa.webp";
 import fabpsaDark from "/static/img/fabpsaDark.webp";
 
-# Subscription confirmed!
+# Inscription confirmée !
 
-<Image className="lightOnly" src={fabpsa} alt="FABPSA" width={250} height={318} />
+<Image className="lightOnly" src={fabpsa} alt="FABPSA" width={250} height={250} />
 
-<Image className="darkOnly" src={fabpsaDark} alt="FABPSA" width={250} height={318} />
+<Image className="darkOnly" src={fabpsaDark} alt="FABPSA" width={250} height={250} />
 
 <div className="textCenter">
 
-Thank you! We will keep you informed about <FabpsaName /> and our project.
+Merci ! Nous vous tiendrons informé·e de l'avancée de <FabpsaName /> et de son projet.
 
 </div>

@@ -2,7 +2,7 @@
 
 ## FABPSA
 
-The website of the French Australian Bilingual Program for School Association.
+The website of the French-Australian Bilingual Program for School Association.
 
 <img src="./static/img/fabpsa.webp" alt="FABPSA logo" width="200"/>
 

@@ -19,7 +19,7 @@ import founders from "/static/img/founders.webp";
 
 ## The story behind <FabpsaName />
 
-<FabpsaName /> (French Australian Bilingual Program for School Association) is born out of the passion and determination of two French mothers, Celine and Julie, living in Perth, Western Australia.
+<FabpsaName /> (French-Australian Bilingual Program for School Association) is born out of the passion and determination of two French mothers, Celine and Julie, living in Perth, Western Australia.
 
 United by their shared passion for education and as their children played and laughed together during playdates, their conversations turned to their dreams of establishing a bilingual school in their adopted city. They were perplexed by the absence of such a school in Western Australia when there were successful examples in the Eastern States. They knew that their endeavour would not be easy as similar projects failed in the last few years. Fuelled by their passion for education and determined to learn from past mistakes, they decided to give it a go. Pourquoi pas?!
 
