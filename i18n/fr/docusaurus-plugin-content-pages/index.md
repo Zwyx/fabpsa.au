@@ -15,13 +15,13 @@ import sponsorDoris from "/static/img/sponsor-doris.webp";
 
 # L'avenir est bilingue. Mise en place du premier programme bilingue français-anglais dans les écoles primaires publiques de Perth.
 
-<Image className="lightOnly" src={fabpsa} alt="FABPSA" width={250} height={318} />
+<Image className="lightOnly" src={fabpsa} alt="FABPSA" width={250} height={250} />
 
-<Image className="darkOnly" src={fabpsaDark} alt="FABPSA" width={250} height={318} />
+<Image className="darkOnly" src={fabpsaDark} alt="FABPSA" width={250} height={250} />
 
 <div style={{ marginTop: "48px" }} />
 
-<FabpsaName />, l'association pour la création d'un programme bilingue français-anglais dans les écoles (French Australian Bilingual Program for School Association), est une association à but non lucratif fondée en 2022 et gérée par des bénévoles partageant leur passion pour l'éducation bilingue. Nous œuvrons à promouvoir une éducation multilingue dans les écoles primaires publiques de Perth, en Australie.
+<FabpsaName />, l'association pour la création d'un programme bilingue français-anglais dans les écoles (French-Australian Bilingual Program for School Association), est une association à but non lucratif fondée en 2022 et gérée par des bénévoles partageant leur passion pour l'éducation bilingue. Nous œuvrons à promouvoir une éducation multilingue dans les écoles primaires publiques de Perth, en Australie.
 
 Notre objectif est de mettre en place un programme bilingue de qualité qui permettra aux élèves d'apprendre à parler couramment français et anglais, tout en s'imprégnant de la culture et en visant l'excellence académique.
 

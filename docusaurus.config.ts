@@ -21,7 +21,7 @@ const PLAUSIBLE_SCRIPT_SRC = env.PLAUSIBLE_SCRIPT_SRC;
 
 const config: Config = {
 	title: "FABPSA",
-	tagline: "French Australian Bilingual Program for School Association",
+	tagline: "French-Australian Bilingual Program for School Association",
 	favicon: "img/favicon.png",
 	url: `https://${DOMAIN}`,
 	baseUrl: "/",

@@ -1,4 +1,8 @@
 {
+	"theme.navbar.mobileLanguageDropdown.label": {
+		"message": "Langue du site",
+		"description": "The label for the mobile language switcher dropdown"
+	},
 	"Your name": {
 		"message": "Votre nom",
 		"description": "supporting-us/brochure - Name field placeholder"

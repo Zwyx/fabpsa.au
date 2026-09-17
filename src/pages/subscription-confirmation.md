@@ -10,9 +10,9 @@ import fabpsaDark from "/static/img/fabpsaDark.webp";
 
 # Subscription confirmed!
 
-<Image className="lightOnly" src={fabpsa} alt="FABPSA" width={250} height={318} />
+<Image className="lightOnly" src={fabpsa} alt="FABPSA" width={250} height={250} />
 
-<Image className="darkOnly" src={fabpsaDark} alt="FABPSA" width={250} height={318} />
+<Image className="darkOnly" src={fabpsaDark} alt="FABPSA" width={250} height={250} />
 
 <div className="textCenter">
 

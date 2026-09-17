@@ -54,7 +54,7 @@ export default function LocaleDropdownNavbarItem({
 	const dropdownLabel = // mobile
 		//?
 		translate({
-			message: "Languages",
+			message: "Site language",
 			id: "theme.navbar.mobileLanguageDropdown.label",
 			description: "The label for the mobile language switcher dropdown",
 		});

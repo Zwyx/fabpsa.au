@@ -19,7 +19,7 @@ import founders from "/static/img/founders.webp";
 
 ## L'histoire de <FabpsaName />
 
-L'association pour la création d'un programme bilingue français-anglais dans les écoles, <FabpsaName /> (French Australian Bilingual Program for School Association) est née de la passion et de la détermination de Céline et Julie, deux mères françaises vivant à Perth, en Australie-Occidentale.
+L'association pour la création d'un programme bilingue français-anglais dans les écoles, <FabpsaName /> (French-Australian Bilingual Program for School Association) est née de la passion et de la détermination de Céline et Julie, deux mères françaises vivant à Perth, en Australie-Occidentale.
 
 Leur passion pour l'éducation les a réunies, et, tandis que leurs enfants s'amusaient ensemble, leurs conversations les ont conduites à rêver d'ouvrir une école bilingue dans leur ville d'adoption.
 Elles étaient étonnées de l'absence d'une telle école en Australie-Occidentale, alors que des programmes similaires existaient et étaient couronnés de succès dans les États de l'Est. Elles savaient que leur projet était ambitieux, surtout après avoir constaté l'échec de projets similaires ces dernières années. Mais nourries par leur passion pour l'éducation et déterminées à apprendre des erreurs passées, elles ont décidé de se lancer.
