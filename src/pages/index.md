@@ -13,11 +13,17 @@ import sponsorDoris from "/static/img/sponsor-doris.webp";
 
 <LocaleManager />
 
-# The future is bilingual. Building Perth's first French-English bilingual program in public primary schools.
+# The future is bilingual.
 
 <Image className="lightOnly" src={fabpsa} alt="FABPSA" width={250} height={250} />
 
 <Image className="darkOnly" src={fabpsaDark} alt="FABPSA" width={250} height={250} />
+
+<div style={{ marginTop: "48px" }} className="textCenter">
+
+## Building Perth's first French-English bilingual program in public primary schools.
+
+</div>
 
 <div style={{ marginTop: "48px" }} />
 
@@ -69,9 +75,11 @@ On [Facebook](https://www.facebook.com/profile.php?id=100081751441463).
 
 </div>
 
-<div style={{ marginTop: "48px" }} />
+<div style={{ marginTop: "48px" }} className="textCenter">
 
-## Thank you to our sponsors
+## Thanks to our sponsors
+
+</div>
 
 <Image src={sponsorDoris} alt="Sponsor - Doris" width={600} height={274} />
 

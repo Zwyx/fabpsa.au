@@ -13,11 +13,17 @@ import sponsorDoris from "/static/img/sponsor-doris.webp";
 
 <LocaleManager />
 
-# L'avenir est bilingue. Mise en place du premier programme bilingue français-anglais dans les écoles primaires publiques de Perth.
+# L'avenir est bilingue.
 
 <Image className="lightOnly" src={fabpsa} alt="FABPSA" width={250} height={250} />
 
 <Image className="darkOnly" src={fabpsaDark} alt="FABPSA" width={250} height={250} />
+
+<div style={{ marginTop: "48px" }} className="textCenter">
+
+## Mise en place du premier programme bilingue français-anglais dans les écoles primaires publiques de Perth.
+
+</div>
 
 <div style={{ marginTop: "48px" }} />
 
@@ -69,9 +75,11 @@ Sur [Facebook](https://www.facebook.com/profile.php?id=100081751441463).
 
 </div>
 
-<div style={{ marginTop: "48px" }} />
+<div style={{ marginTop: "48px" }} className="textCenter">
 
 ## Merci à nos sponsors
+
+</div>
 
 <Image src={sponsorDoris} alt="Sponsor - Doris" width={600} height={274} />
 

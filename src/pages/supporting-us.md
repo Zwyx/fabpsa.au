@@ -12,7 +12,7 @@ import youngPeople from "/static/img/youngPeople.webp"
 
 <TitleWithLogo>
 
-# Pourquoi Pas… Supporting us
+# Supporting us
 
 </TitleWithLogo>
 
